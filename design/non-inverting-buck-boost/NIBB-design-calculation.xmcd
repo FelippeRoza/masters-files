@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?validation-md5-digest 9c351a83e2d111fe0390e730b74d607b?>
+<?validation-md5-digest 8604ed3b3635158fdde0a01f342219bc?>
 <worksheet version="3.0.3" xmlns="http://schemas.mathsoft.com/worksheet30" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ws="http://schemas.mathsoft.com/worksheet30" xmlns:ml="http://schemas.mathsoft.com/math30" xmlns:u="http://schemas.mathsoft.com/units10" xmlns:p="http://schemas.mathsoft.com/provenance10">
 	<pointReleaseData/>
 	<metadata>
@@ -13,9 +13,9 @@
 			<revisedBy>Felippe</revisedBy>
 		</userData>
 		<identityInfo>
-			<revision>10</revision>
+			<revision>11</revision>
 			<documentID>DDFA384B-9603-4971-8887-B48C3A5D1256</documentID>
-			<versionID>925B0DA8-90F2-4903-8098-B7D0DB2084B0</versionID>
+			<versionID>123109DF-ABF6-4019-B325-6CDE992D58BF</versionID>
 			<parentVersionID>00000000-0000-0000-0000-000000000000</parentVersionID>
 			<branchID>00000000-0000-0000-0000-000000000000</branchID>
 		</identityInfo>
@@ -115,7 +115,7 @@
 		</editor>
 		<fileFormat image-type="image/png" image-quality="75" save-numeric-results="true" exclude-large-results="false" save-text-images="false" screen-dpi="96"/>
 		<miscellaneous>
-			<handbook handbook-region-tag-ub="2477" can-delete-original-handbook-regions="true" can-delete-user-regions="true" can-print="true" can-copy="true" can-save="true" file-permission-mask="4294967295"/>
+			<handbook handbook-region-tag-ub="2545" can-delete-original-handbook-regions="true" can-delete-user-regions="true" can-print="true" can-copy="true" can-save="true" file-permission-mask="4294967295"/>
 		</miscellaneous>
 	</settings>
 	<regions>
@@ -150,13 +150,13 @@
 				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Input voltage range:</p>
 			</text>
 		</region>
-		<region region-id="1871" left="180" top="63" width="48" height="12.75" align-x="209.25" align-y="72" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+		<region region-id="1871" left="180" top="63" width="52.5" height="12.75" align-x="209.25" align-y="72" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
 			<math optimize="false" disable-calc="false">
 				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
 					<ml:id xml:space="preserve">Vimin</ml:id>
 					<ml:apply>
 						<ml:mult style="auto-select"/>
-						<ml:real>5</ml:real>
+						<ml:real>10</ml:real>
 						<ml:id xml:space="preserve">V</ml:id>
 					</ml:apply>
 				</ml:define>
@@ -238,10 +238,10 @@
 		<region region-id="2154" left="180" top="225" width="51.75" height="16.5" align-x="206.25" align-y="234" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
 			<math optimize="false" disable-calc="false">
 				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
-					<originRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="418131172" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+					<originRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263439588" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 						<hash/>
 					</originRef>
-					<parentRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="418130652" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+					<parentRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263439308" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 						<hash/>
 					</parentRef>
 					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
@@ -271,10 +271,10 @@
 		<region region-id="2156" left="180" top="261" width="50.25" height="16.5" align-x="209.25" align-y="270" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
 			<math optimize="false" disable-calc="false">
 				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
-					<originRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="418447212" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+					<originRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263440708" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 						<hash/>
 					</originRef>
-					<parentRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="418440052" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+					<parentRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263439348" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 						<hash/>
 					</parentRef>
 					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
@@ -358,7 +358,7 @@
 				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
 					<ml:id xml:space="preserve">Dmax</ml:id>
 					<result xmlns="http://schemas.mathsoft.com/math30">
-						<ml:real>0.80769230769230771</ml:real>
+						<ml:real>0.67741935483870963</ml:real>
 					</result>
 				</ml:eval>
 			</math>
@@ -367,10 +367,10 @@
 		<region region-id="2221" left="180" top="416.25" width="37.5" height="27.75" align-x="195" align-y="432" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
 			<math optimize="false" disable-calc="false">
 				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
-					<originRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="418440732" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+					<originRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263439468" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 						<hash/>
 					</originRef>
-					<parentRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="418439532" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+					<parentRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263439108" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 						<hash/>
 					</parentRef>
 					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
@@ -519,10 +519,10 @@
 			<math optimize="false" disable-calc="false">
 				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
 					<ml:provenance expr-id="1">
-						<originRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="418440532" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<originRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263442108" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 							<hash/>
 						</originRef>
-						<parentRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="418440492" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<parentRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263439588" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 							<hash/>
 						</parentRef>
 						<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
@@ -562,10 +562,10 @@
 		<region region-id="2267" left="180" top="626.25" width="72.75" height="27.75" align-x="210" align-y="642" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
 			<math optimize="false" disable-calc="false">
 				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
-					<originRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="418440292" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+					<originRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263439468" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 						<hash/>
 					</originRef>
-					<parentRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="418447212" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+					<parentRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263440708" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 						<hash/>
 					</parentRef>
 					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
@@ -595,10 +595,10 @@
 			<math optimize="false" disable-calc="false">
 				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
 					<ml:provenance expr-id="1">
-						<originRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="418440172" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<originRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263439308" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 							<hash/>
 						</originRef>
-						<parentRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="418439892" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<parentRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263439348" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 							<hash/>
 						</parentRef>
 						<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
@@ -731,10 +731,10 @@
 			<math optimize="false" disable-calc="false">
 				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
 					<ml:provenance expr-id="1">
-						<originRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="418447292" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<originRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263439828" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 							<hash/>
 						</originRef>
-						<parentRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="418439892" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<parentRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263442868" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 							<hash/>
 						</parentRef>
 						<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
@@ -761,18 +761,77 @@
 				</element-image-map>
 			</rendering>
 		</region>
-		<region region-id="2345" left="36" top="830.25" width="72" height="12" align-x="50.25" align-y="840" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+		<region region-id="2543" left="180" top="836.25" width="77.25" height="27.75" align-x="198" align-y="852" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define warning="WarnRedefinedUDScalar" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">Co</ml:id>
+					<ml:parens>
+						<ml:apply>
+							<ml:div/>
+							<ml:apply>
+								<ml:mult/>
+								<ml:id xml:space="preserve">Io</ml:id>
+								<ml:parens>
+									<ml:id xml:space="preserve">Dmax</ml:id>
+								</ml:parens>
+							</ml:apply>
+							<ml:apply>
+								<ml:mult/>
+								<ml:id xml:space="preserve">ΔV</ml:id>
+								<ml:id xml:space="preserve">fs</ml:id>
+							</ml:apply>
+						</ml:apply>
+					</ml:parens>
+				</ml:define>
+			</math>
+			<rendering item-idref="30"/>
+		</region>
+		<region region-id="2544" left="300" top="843" width="63" height="12.75" align-x="316.5" align-y="852" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:provenance expr-id="1">
+						<originRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263439828" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+							<hash/>
+						</originRef>
+						<parentRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263442868" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+							<hash/>
+						</parentRef>
+						<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+						<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+						<contentHash xmlns="http://schemas.mathsoft.com/provenance10">bcf3aa285571f9e6cf6b5d936bdb3872</contentHash>
+						<ml:id xml:space="preserve">Co</ml:id>
+					</ml:provenance>
+					<ml:unitOverride>
+						<ml:id xml:space="preserve">μF</ml:id>
+					</ml:unitOverride>
+					<result xmlns="http://schemas.mathsoft.com/math30">
+						<unitedValue>
+							<ml:real>307.21966205837174</ml:real>
+							<unitMonomial xmlns="http://schemas.mathsoft.com/units10">
+								<unitReference unit="microfarad"/>
+							</unitMonomial>
+						</unitedValue>
+					</result>
+				</ml:eval>
+			</math>
+			<rendering item-idref="31">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="10.5" height="11.25" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="2534" left="36" top="884.25" width="72" height="12" align-x="50.25" align-y="894" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
 			<text use-page-width="false" push-down="false" lock-width="true">
 				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Tensao Máxima:</p>
 			</text>
 		</region>
-		<region region-id="2346" left="180" top="824.25" width="82.5" height="27.75" align-x="213.75" align-y="840" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+		<region region-id="2535" left="180" top="878.25" width="82.5" height="27.75" align-x="213.75" align-y="894" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
 			<math optimize="false" disable-calc="false">
 				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
-					<originRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="418447292" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+					<originRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263439828" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 						<hash/>
 					</originRef>
-					<parentRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="418439932" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+					<parentRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263439108" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 						<hash/>
 					</parentRef>
 					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
@@ -792,20 +851,20 @@
 					</ml:define>
 				</ml:provenance>
 			</math>
-			<rendering item-idref="30">
+			<rendering item-idref="32">
 				<element-image-map>
 					<box left="1.5" top="0.75" width="81" height="26.25" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
 				</element-image-map>
 			</rendering>
 		</region>
-		<region region-id="2422" left="300" top="831" width="78" height="16.5" align-x="332.25" align-y="840" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+		<region region-id="2536" left="300" top="885" width="78" height="16.5" align-x="332.25" align-y="894" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
 			<math optimize="false" disable-calc="false">
 				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
 					<ml:provenance expr-id="1">
-						<originRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="418440212" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<originRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263439468" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 							<hash/>
 						</originRef>
-						<parentRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="418439972" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<parentRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263439308" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 							<hash/>
 						</parentRef>
 						<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
@@ -823,31 +882,31 @@
 					</result>
 				</ml:eval>
 			</math>
-			<rendering item-idref="31">
+			<rendering item-idref="33">
 				<element-image-map>
 					<box left="1.5" top="0.75" width="26.25" height="15" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
 				</element-image-map>
 			</rendering>
 		</region>
-		<region region-id="2389" left="18" top="872.25" width="165" height="12" align-x="18" align-y="882" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+		<region region-id="2537" left="18" top="926.25" width="165" height="12" align-x="18" align-y="936" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
 			<text use-page-width="false" push-down="false" lock-width="true">
 				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
 					<b>5) Transistor maximum ratings: </b>
 				</p>
 			</text>
 		</region>
-		<region region-id="2463" left="36" top="920.25" width="109.5" height="12" align-x="54.75" align-y="930" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+		<region region-id="2538" left="36" top="974.25" width="109.5" height="12" align-x="54.75" align-y="984" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
 			<text use-page-width="false" push-down="false" lock-width="true">
 				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Maximum switch current:</p>
 			</text>
 		</region>
-		<region region-id="2468" left="180" top="914.25" width="72.75" height="27.75" align-x="210" align-y="930" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+		<region region-id="2539" left="180" top="968.25" width="72.75" height="27.75" align-x="210" align-y="984" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
 			<math optimize="false" disable-calc="false">
 				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
-					<originRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="418439852" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+					<originRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263439588" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 						<hash/>
 					</originRef>
-					<parentRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="418447292" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+					<parentRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263439828" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 						<hash/>
 					</parentRef>
 					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
@@ -867,20 +926,20 @@
 					</ml:define>
 				</ml:provenance>
 			</math>
-			<rendering item-idref="32">
+			<rendering item-idref="34">
 				<element-image-map>
 					<box left="1.5" top="0.75" width="71.25" height="26.25" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
 				</element-image-map>
 			</rendering>
 		</region>
-		<region region-id="2469" left="300" top="921" width="55.5" height="16.5" align-x="328.5" align-y="930" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+		<region region-id="2540" left="300" top="975" width="55.5" height="16.5" align-x="328.5" align-y="984" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
 			<math optimize="false" disable-calc="false">
 				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
 					<ml:provenance expr-id="1">
-						<originRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="418439892" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<originRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263442588" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 							<hash/>
 						</originRef>
-						<parentRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="418440132" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<parentRef doc-id="49160B4A-947F-4959-8070-C5D98991FDCC" version-id="95C8962B-A58A-4E0A-8CE6-E7297559A5DB" branch-id="00000000-0000-0000-0000-000000000000" revision-num="263439108" is-modified="false" region-id="0" href="C:\Users\Felippe\Downloads\BUCK MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
 							<hash/>
 						</parentRef>
 						<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
@@ -898,7 +957,7 @@
 					</result>
 				</ml:eval>
 			</math>
-			<rendering item-idref="33">
+			<rendering item-idref="35">
 				<element-image-map>
 					<box left="1.5" top="0.75" width="22.5" height="15" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
 				</element-image-map>
@@ -913,15 +972,15 @@ MCQm/n4CAFXSAkDZAAAA/Hb3AgAl0gJAVbLti1AQwPmDSgAAAABJRU5ErkJggg==</item>
 AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABDSURBVHhe7daxCQBBEMSw6b/pfbjg
 S3AkgXvwDgAgZkAAgJwBAQByb0C2SZIkJRkQSZKU9w8IAEDJgAAAOQMCAMTuPvlfF+49RLIu
 AAAAAElFTkSuQmCC</item>
-		<item item-id="3">iVBORw0KGgoAAAANSUhEUgAAAEAAAAARCAYAAABtu6qMAAAAAXNSR0IArs4c6QAAAARnQU1B
-AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFRSURBVFhH7VXbEcQgCLQuC6Ieq7GZ
-FMMBkgQR7zF3+bgxO5OJGhR2EZJwcdwC6HtZ3AK014YlJ0yJn4xla6tYoa3lQhYVgcZQ9dtL
-fGr/KzS/jQvQ7AU3nRLigCvwIf+DrcBJ8sCcW1cCW8mYu92kXvkn+mf2ex5zbn0P2ApmuTYK
-mh/85ZteIb4+VBaVDt2dsYPOsbU/xuZ6TmsjztZHEH9OBFkbubkm2Opld14L176MNPCehDiw
-zg4nsX2rST6O60/FmcLWrnveUof92vKNuTkBCBycWFW6IiZCIWczqoc/HVt7Q9jPL8LQvwJu
-owD0ETg4UqgLcCB0tQDf3gDe7wQIuAUCsFDkRH59BgOhqwX4EpTtrgcoPLdQAA6wb/4mG6Qq
-6Bjquc5J2RthAtof2A//ZS+yoPWMt5LsIb1Fz54d4LjFAiyEWwB9L4vFBUB8AI0zcQ8d5tnI
-AAAAAElFTkSuQmCC</item>
+		<item item-id="3">iVBORw0KGgoAAAANSUhEUgAAAEYAAAARCAYAAABgpdrLAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFxSURBVFhH7ZVhjsQgCIU9lwfyPJ7G
+y/QwLCA6gLJNd2d+TOJLmqi1yPtQm+BoqwMm0AET6IAJJGAuqDlBSvRkqFcfhVb6WK44o0HB
+dmny7lZP579PV82Q/MJXhWz83XiWLmpvpJWCb75HDIWMGSPkTcwzoOEp9myOEgXNEx0JqdZv
+wtK17BjaBbPfd8roRp7tHWNoorA/ufA7oU4L4fFqUh0KPCo1F9HzZ7tXaK2o1v+PoAfj+634
+PFfP7vK1NFulu4VbYsia4+AcWLdpkf38NBLgcyzQQuk7wD031HZgJgiUARN4dmBQc9s13FIq
+81n10RaTv7b1fAXC99+sZ2BQG88rGHzJFxWSM4kvRj8N5n075mWcZHdI1+p5A4bi4OL8i1Za
+jH4azN+1gBnGRy7eG8p73oKhj+3PSFUvFyjSLu01TnlwQlxR/H4zv98xOtaaYDfhK/pAfH9J
+fB2Ei0HjQUGc5z2YowMm0gET6IDZCuAHd33SLLjrqX8AAAAASUVORK5CYII=</item>
 		<item item-id="4">iVBORw0KGgoAAAANSUhEUgAAAEcAAAARCAYAAACPZ7H1AAAAAXNSR0IArs4c6QAAAARnQU1B
 AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGSSURBVFhH7ZSJjcQgDEVTFwW5Hqpx
 MymG8UkwAWaz2pF2JL6ExJEY/4fhKFtTbTgLbTgLbTgLGZyz5HSU4+CWSj51tiDoXMr0BRag
@@ -1020,15 +1079,15 @@ jc6zC3SlIEG4yPStL96rkRZwWZfjBbi2fSgteoLelGeJy8y8B229IGEhhu/VdGDeAVJqxSJR
 J/Nurb95tmKQ+N0HFtCBuRvIk3kTYOgvvrUaoxokLnSdLAiXl48NoX5+5Aj3D8an2CQ/6wrU
 Osh+3iz64cg5FOkG+YdkIJXIQCqRgVShGP8B92Pi27rgxVYAAAAASUVORK5CYII=</item>
 		<item item-id="13">iVBORw0KGgoAAAANSUhEUgAAAFEAAAARCAYAAACl10BaAAAAAXNSR0IArs4c6QAAAARnQU1B
-AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGYSURBVFhH7ZTrscQgCIVTlwVZj9XY
-jMWwAj5IBJO9cebuD8+MM645IPkge8DWa22IC7QhLtCGuEAFYgR/HHAoy4XEll9VCuCoVgdW
-qSk4/X2MWNNv6DSJ0V+CoudkPpaDXxM2vwAgID6fXHX1VGBWrOW3NYeIIpD3if5FWFtrcILg
-Dhj6bQGyYi3/RPcQKVE5x4tdgFjGHc/q6Ms4zFM/By6Ui8TfPop8L0V3C2p6/eVu9OX663M7
-VvfP9AAiJ3Uh0Ms3YNQxuS/dw30GTVnUruZ8oRff1UEPS7ysFIKQ9er1o7hxMs88dvTP9N0k
-XmFp+yqcWoIgzsm37q/hKcQUPDcPm1QaPIvV/DPdQqSxry/+CKLsIu4FxJh9NNVaWd9PIjWq
-PeP4wYq1NRDCY8Va/ommEBmgOHsAkWLarQIierjKXNiqacT8osHa1Mg6yV+hGLGm31aByOZh
-AvLqCbgrfCb3eC/DJnhURI+n5Tx49J+e10JfquUTjSlntfZWX16nr0CLzTL9hk6TuPU3bYgL
-tCEu0Ib4WgAfBhlXdoF2lPIAAAAASUVORK5CYII=</item>
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGpSURBVFhH7ZbhjcMgDIUzFwMxD9Ow
+TIahtjGJARvSC1LvB0/KiXMd9/HZoB5p67U2xAXaEBdoQ1wghhiTP450KI8LZ075rzpDcuTV
+pbHVMwWX9+Qj/t/veRy3VU1i9A206HOhWZWfCTfM8Aimh4gmBiP3EWOVGz2/a8UHGkNEEchZ
+l38k9HaByZPW9zvHxycKcnyAv62seK05RO4ixdG0CykGRxOKsVOsi7BOOQp5k/IoiXovRd8t
+qKn+eUJ98dRTphyv+bHijR5ALJ2EggyGcvguutc89rgG0FRFxqkZONFQLygbEaC7R9s4CCFK
+v5r/DBo8YAn23JY7g1dPmhVv9d0ktrC0dVG5T2Wc8tZdDU8hjnOsI2vFe00hUie1y9uEKC9x
+XAuIEfLM++n7SaRGXZ/l9/spmx158KjWt+K9hhAzQBF7ALE2LSBiDsVxs6umEeuLBpdrRIq8
+le8T+UXQCJ2hEVfEELG4MgHw3IXuSfFRrtFnhk3wyPT9Pj0ODGF+9bmY0De66gk4HLu8X1dL
+P6nWT5gnP22Kqknc+ps2xAXaEBdoQ3ytlD4/mZaQUhxsqgAAAABJRU5ErkJggg==</item>
 		<item item-id="14">iVBORw0KGgoAAAANSUhEUgAAADIAAAAlCAYAAAAA7LqSAAAAAXNSR0IArs4c6QAAAARnQU1B
 AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFbSURBVFhH7ZeLDcIwDEQzVwbKPJkm
 y3QYY5y0id1PAiriKD2pSBEV6uv5bOPoIrpB0HSDnKuJonfknL58nMr3fUE5kkLz8CkITEj5
@@ -1212,7 +1271,39 @@ iMXXhXxG6BJP29HYSeZxkMerfe8K/X5Hlz8mgTt3tWihLbsNCGXu69kRFNeaVgZzyWih7/c7
 Xa14qlKgQ30c6A7jypYEUfjdo+Y1ULySdy5uVUzcX+49uwXEaeu88yePubkvWeh5nuker1no
 y+VC14dCIyx2Xk1VKUHn3QfUe+JSwtEksb3K3bJLfNqvnZKMOT3yvUeThz6n04mExXU+n2nN
 8089zeo7G6E7j0ERX6UL/QZd6IPoQv9bUvoFxyy32Kd+KYQAAAAASUVORK5CYII=</item>
-		<item item-id="30">iVBORw0KGgoAAAANSUhEUgAAAG4AAAAlCAYAAACjxNxUAAAAAXNSR0IArs4c6QAAAARnQU1B
+		<item item-id="30">iVBORw0KGgoAAAANSUhEUgAAAGcAAAAlCAYAAABf0feeAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAO7SURBVGhD7ZnNlaswDIXp4rUwNVAQ
+J0XM4s0+C2rJwrv0kH1W6SAd8HQtO5GN7PCbRzzccxywAdnos2QgVbdrs9oYHNM1VdVVUWmM
+O1yoTNO/54puentwSicxSOyHHc4m9YFwgvCfDJH6qBr6xVbYE6Vur+7cpUV91m332voHwoEA
+aLrzAKTu5OU9e6ZhSJPhv9C17Wo7OXL6hXBwbWxetWcBhRAXFexn77MYOIgGn5IyDsWMVVKK
+Dptt2nY4kq4zbf1IeVex7wU7PAYfddeurbneGGHPCsdy8IuAww7wl7CD9JRhHarY1uGw3bpt
+H+DtOTYlyX3XlwQfpC1AAQSy14Z9o9/0rZYAxzpCzMCgDsc8HQA4fQiRvYf4WhWCtu/l1yvZ
+Ho/RKTUeVglw4rUh4QhoDBxOW87OIDgMkyMT+wKOofNsFPb7KBtO4BRUeX3Qbtk6XLEdw2Ew
+om0AnNC2gINzbHt/jUG/6Vv9QDi4IU4bAoh1km8XMzYWzgvAObBKeQ6B1x5uk/swxxDtOIIx
+uFI39E4TH/fj68MKlYDz6BQFhmk2YvMe5eHMVX62vlGI8OxAFDg8M8XscwtcKXCs/cSa9DbZ
+KMpEuFUMx16kDLygyGEhpbxyzlrC5BjSdwSH09kAoj7lZWcgnzfezz/d19eP2//NIj/8oazl
+apzSEk86LF4QvcN7KVDVcxHtFZXcOyLnE0R+IBZh5OTgxGkvlQZnKQ1HBVxI6SuCw4u/4myC
+0KAxPj4Izh450xTDIfVTFZ/E/qd96VTAykXaJO1rDitac7wYkC/RmmKjJXEsEIMcHwR75LDY
+D1rC+4/a4bAiONXfkNPc+jTtcFgCDhwrnTu3Pl3rwLndbjYVYxtKPrCIhxv3ZSS9ptI47TVU
+VplMEZwlt9O1Dpzv72/ryMPh4Fqk2NFxt6ZJrakA6kCu8joBOTjSodifW5+n5eEgWk6nU3e5
+XCwgbGPhHS/8b4UARP9cPrQaECkFDjS3Pk/Lw5HRwulLGa91uIgUqqtsgqdVKm6swZf8RV4v
+HBxX24iWhYMoQdR4paOH1x7ftWlHfCnBmAXYqzE7nCHS1hg/w3vCQ4Dt21BKk+6F88WapKQ1
+/26Y/tt5rAqHg4g5n8+u9pR/cpMRxQIEcjpFTdbHChwWQ3z9MXiICoejP5mxcAyA7ve7a2G9
+/jJPUtKajDTTaODGqmA4iAqfvnLleDy6K5zI8amHNJaPDi481LBtmfeeguF8vnY4G9ZW4cgU
+4UrpvMJ/AlzZHpxdT3XdP9DGcdMU8wdUAAAAAElFTkSuQmCC</item>
+		<item item-id="31">iVBORw0KGgoAAAANSUhEUgAAAFQAAAARCAYAAABD/oseAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHySURBVFhH7ZXNkcMgDIVdlwtiUkRK
+yIEatghu7iHXjJtIB4QnBIg/O/E6uxe+GcaOjEE8PTmTHZzKEPRkhqAnMwQ9mUrQVc92miY/
+lLHWKIvLt0n7zlavHASrtnMVN1aFHHnUOa5Wz+G5fLcX/wS5RjF4BmEUgsqlyzgxMenrgjrR
+FJ+MhI0bQjg+NAnLuRmTcnQYJXJmVq2iWHSuWTsZ+vEj4P1ZVsTlmASlhBsV+yOHRtx+MUkU
+NG7uXdF0otoRRRZD0oszj8eD7zzl70pQRxTUt1x/cY9staPtsoUTR6cMcre2DwBRgru7QLiW
+E3txBucM3O/37DfI8jGa9Igz9u2fO4TmNwuw8X3ZtHoqVkgSgkoBW4LKFu4iXS/pxRnkEugJ
+Gs/GBoszyA1bglJ7CFeWv09Cdsq+oG+0OwrVPFcZ9wWVNX9H0JhP6VBUq9nGoaXK511Bjzo0
+gIOx83e/oW7uzpqtPyzQi0uQc0AK+nw+6drqmExyb2G5kayir2A8IA67+Yk4SCYi9uSitb53
+bu6WnnB4fB6MQbfteAkEXJaF7nENgt5uN7ruCgq8qGEUVSRXdp79At/mvG6pUNyz7obKZTwX
+S+TnSO/34i3w/HK5kIAY1+uVxrL85F0ocq4EHSQg1qcMQTcYgp7MEPTfsfYFavpQG9jxXMkA
+AAAASUVORK5CYII=</item>
+		<item item-id="32">iVBORw0KGgoAAAANSUhEUgAAAG4AAAAlCAYAAACjxNxUAAAAAXNSR0IArs4c6QAAAARnQU1B
 AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALBSURBVHhe7ZnBkaswDIapi4I8KSIl
 5EAtOfiWHnLnlA7SgVeyZJCJMc7bF7Cz+mbYADYM9u9fkmc7pzSJCtcoKlyjqHCNosIdxOPx
 cF3X+d+Y0Q1959u6rnfDyLetoXv9AD1UuMM4n89eiNPpxHck1hloM5YvGWsMtBAq3AGgy67X
@@ -1228,7 +1319,7 @@ c6oo2z8S5cIBL1UlTn4q9K2ce9dOSUoIh32mfPe3XDcOZhpvPh3FvCUcEhUXk4iywJDnLBb2
 pQsQMTzLRw9VKfaP2sN7/xhywW/wtnDKB0HhPuU45YNAHVGa41W4ahD1QgEqXCW8+79BFa4C
 sICbim3Ic357tYEKdzBxlY5H2XZIhWsUFa5RVLhGUeGaxLkfE2e04FeJqPUAAAAASUVORK5C
 YII=</item>
-		<item item-id="31">iVBORw0KGgoAAAANSUhEUgAAAGgAAAAWCAYAAAAsNNkQAAAAAXNSR0IArs4c6QAAAARnQU1B
+		<item item-id="33">iVBORw0KGgoAAAANSUhEUgAAAGgAAAAWCAYAAAAsNNkQAAAAAXNSR0IArs4c6QAAAARnQU1B
 AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI2SURBVGhD7VaJkcMgDHRdLoh6qIZm
 XAynFWAEFrbDJReSY2eYAUJ4drWSFz8xNKZAg2MKNDimQIMjCrR5uy5+WdBWb7cw650Jc6ul
 FZ+GxpsiNrv6xbg40qGu2axf1T2dNzyPZmiU8DtuhYPCAfV9nJGHfQ42a3YynCmJYOJBzolA
@@ -1241,7 +1332,7 @@ KkHl9gSqQDi8LmB8WTW3RiC66GDH64L1w3/KNBBcKKM/u8M4ENAosg+iOIebCK7ofG5JAA5A
 sEecmOd1Sgr957gtUCBVIZCI5dx+S6DoNE4D6AuBHK2jVPeM9PZNuC8QIeR1QSpI1lJWo18W
 XSEQ1vA86tF0kcRDAgFl8U1iyUIv+1GU5BoWK/03NvokNVhf/J72nXhYoIm/xRRocEyBBscU
 aGh4/wMfSViCPYo9AgAAAABJRU5ErkJggg==</item>
-		<item item-id="32">iVBORw0KGgoAAAANSUhEUgAAAGEAAAAlCAYAAABSz4fZAAAAAXNSR0IArs4c6QAAAARnQU1B
+		<item item-id="34">iVBORw0KGgoAAAANSUhEUgAAAGEAAAAlCAYAAABSz4fZAAAAAXNSR0IArs4c6QAAAARnQU1B
 AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJcSURBVGhD7ZjNlYMgEMeti4J4KSIl
 5GAtOXBLD7l7SgfpgGUGRgaj4LohYnZ+75GgIgvznw+ynRV2R0RoABGhAUSEBhARKvB4PGzX
 dfg9xegOn2HTBu+JCBU4n89o5NPpFO6kgBCqH8KViPB2wPuv16u93+8oBHxPEREqw72f0s4U
@@ -1255,7 +1346,7 @@ XPOp6BvgGaTsbFkRUm+lNOK6K0TAGjEmdSYCjPFKuoV+ZzQMvR73hTWqcBAoRIJhilKhjCpr
 w/vwii/OaHwUJL6LTWmrYXzynEXIN8Icc4mVNUHYDIiwORKE9+AOJqXaJyJUxdXC4g9DEaEq
 Rq+rdyJCJeCQ4g8yeDE57qeICBVI/nWCLX8UFxEaQERoABGhAUSE3bH2B+PJUVVDT0nTAAAA
 AElFTkSuQmCC</item>
-		<item item-id="33">iVBORw0KGgoAAAANSUhEUgAAAEoAAAAWCAYAAABnnAr9AAAAAXNSR0IArs4c6QAAAARnQU1B
+		<item item-id="35">iVBORw0KGgoAAAANSUhEUgAAAEoAAAAWCAYAAABnnAr9AAAAAXNSR0IArs4c6QAAAARnQU1B
 AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGlSURBVFhH7ZcBjoQgDEU9FwfqeTgN
 l+EwTFtaLS5CZ7LZ1Qk/ISGIQh+/Vbey5NIC5dQC5dQC5dQOKsFWtk0aJBl9jnIMsv9QYpbB
 C3Gsb8bYOIoeEGar3FE5FpB9M7AhhFRiIKiAPb++A5RVgmEMOUYElAqg+94x1ZeByiXGUfTH
