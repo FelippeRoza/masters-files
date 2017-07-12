@@ -360,6 +360,22 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 </package>
 </packages>
 </library>
+<library name="capacitor">
+<description>Capacitors</description>
+<packages>
+<package name="20ROUND40P">
+<description>Round device, .2 lead spacing, .40 diameter, polarized</description>
+<circle x="0" y="0" radius="5.08" width="0.254" layer="21"/>
+<pad name="-" x="2.54" y="0" drill="0.889" diameter="2.54"/>
+<pad name="+" x="-2.54" y="0" drill="0.889" diameter="2.54"/>
+<text x="-3.175" y="1.27" size="1.905" layer="21" ratio="14">+</text>
+<text x="1.905" y="1.27" size="1.905" layer="21" ratio="14">-</text>
+<text x="-6.35" y="-0.635" size="1.27" layer="21" ratio="16">+</text>
+<text x="-2.286" y="-6.604" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-0.889" y="-2.286" size="0.762" layer="51" ratio="10">&gt;NAME</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -580,27 +596,33 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="1462926" x="-102.87" y="-140.97" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="25C3832" x="-102.87" y="-140.97" size="1.778" layer="27" display="off"/>
 </element>
+<element name="C1" library="capacitor" package="20ROUND40P" value="" x="-96.52" y="-161.29">
+<attribute name="DESC" value="Capacitor, polarized" x="-96.52" y="-161.29" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OUT" library="con-molex" package="22-23-2021" value="" x="-102.87" y="-181.61">
+<attribute name="MF" value="MOLEX" x="-102.87" y="-181.61" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="22-23-2021" x="-102.87" y="-181.61" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1462926" x="-102.87" y="-181.61" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="25C3832" x="-102.87" y="-181.61" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
-<signal name="N$1">
-<contactref element="Q1" pad="S"/>
-<contactref element="L1" pad="1"/>
-<contactref element="D1" pad="C"/>
-<wire x1="-54.61" y1="8.89" x2="-71.12" y2="-26.67" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.97" y1="8.89" x2="-54.61" y2="8.89" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="N$2">
-<contactref element="Q2" pad="D"/>
 <contactref element="L1" pad="2"/>
 <contactref element="D2" pad="A"/>
+<contactref element="Q2" pad="D"/>
 <wire x1="-55.88" y1="-29.21" x2="-101.6" y2="-49.53" width="0" layer="19" extent="1-1"/>
 <wire x1="-31.75" y1="8.89" x2="-55.88" y2="-29.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="Q2" pad="S"/>
-<contactref element="D1" pad="A"/>
 <contactref element="VLINE" pad="2"/>
+<contactref element="C1" pad="-"/>
+<contactref element="D1" pad="A"/>
+<contactref element="OUT" pad="2"/>
 <wire x1="-99.06" y1="-49.53" x2="-101.6" y2="-66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-93.98" y1="-161.29" x2="-101.6" y2="-66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-101.6" y1="-181.61" x2="-93.98" y2="-161.29" width="0" layer="19" extent="1-1"/>
 <wire x1="-8.89" y1="8.89" x2="-99.06" y2="-49.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
@@ -649,6 +671,20 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="2"/>
 <wire x1="-101.6" y1="-125.73" x2="-101.6" y2="-140.97" width="0" layer="19" extent="1-1"/>
 <wire x1="-104.14" y1="-85.09" x2="-101.6" y2="-125.73" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$7">
+<contactref element="D2" pad="C"/>
+<contactref element="C1" pad="+"/>
+<contactref element="OUT" pad="1"/>
+<wire x1="-99.06" y1="-161.29" x2="-104.14" y2="-181.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.83" y1="8.89" x2="-99.06" y2="-161.29" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1">
+<contactref element="Q1" pad="S"/>
+<contactref element="L1" pad="1"/>
+<contactref element="D1" pad="C"/>
+<wire x1="-54.61" y1="8.89" x2="-71.12" y2="-26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.97" y1="8.89" x2="-54.61" y2="8.89" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

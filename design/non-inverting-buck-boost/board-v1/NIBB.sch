@@ -559,6 +559,770 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="capacitor">
+<description>Capacitors</description>
+<packages>
+<package name="30ROUND65P">
+<description>Round device, .3 lead spacing, .65 diameter, polarized</description>
+<circle x="0" y="0" radius="8.255" width="0.254" layer="21"/>
+<pad name="-" x="-3.81" y="0" drill="1.1684" diameter="3.048"/>
+<pad name="+" x="3.81" y="0" drill="1.1684" diameter="3.048"/>
+<text x="2.794" y="1.524" size="2.54" layer="21" ratio="10">+</text>
+<text x="-4.572" y="1.778" size="2.54" layer="21" ratio="10">-</text>
+<text x="8.5725" y="-0.635" size="1.27" layer="21" ratio="16">+</text>
+<text x="-1.524" y="-9.779" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-1.016" y="-0.381" size="0.762" layer="51" ratio="10">&gt;NAME</text>
+</package>
+<package name="30ROUND90P">
+<description>Round device, .3 lead spacing, .9 diameter, polarized</description>
+<circle x="0" y="0" radius="11.5003" width="0.254" layer="21"/>
+<pad name="-" x="-3.81" y="0" drill="1.1684" diameter="3.048"/>
+<pad name="+" x="3.81" y="0" drill="1.1684" diameter="3.048"/>
+<text x="2.794" y="1.524" size="2.54" layer="21" ratio="10">+</text>
+<text x="-4.572" y="1.778" size="2.54" layer="21" ratio="10">-</text>
+<text x="-3.81" y="-5.08" size="2.54" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.905" y="-13.0175" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="12.065" y="-0.635" size="1.27" layer="21" ratio="16">+</text>
+<text x="0.381" y="-1.016" size="0.762" layer="51" ratio="10" rot="R90">&gt;NAME</text>
+</package>
+<package name="AXUP65P">
+<description>Axial device mounted vertically, .65 diameter, polarized</description>
+<wire x1="8.255" y1="0" x2="8.89" y2="0" width="0.254" layer="21"/>
+<circle x="0" y="0" radius="8.255" width="0.254" layer="21"/>
+<pad name="-" x="0" y="0" drill="1.1684" diameter="3.048"/>
+<pad name="+" x="10.16" y="0" drill="1.1684" diameter="3.048"/>
+<text x="5.842" y="-1.27" size="2.54" layer="21" ratio="10">+</text>
+<text x="1.778" y="-1.016" size="2.54" layer="21" ratio="10">-</text>
+<text x="8.5725" y="1.5875" size="1.27" layer="21" ratio="16">+</text>
+<text x="-1.651" y="-9.779" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-2.54" y="-6.731" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-1.778" y="0.381" size="0.762" layer="51" ratio="10" rot="R180">&gt;NAME</text>
+</package>
+<package name="RAD-100-200-30-P">
+<description>Radial, .1 lead spacing, .2 diameter, .030 lead dia, polarized</description>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="21"/>
+<pad name="+" x="-1.27" y="0" drill="0.889" diameter="1.778"/>
+<pad name="-" x="1.27" y="0" drill="0.889" diameter="1.778"/>
+<text x="-3.81" y="-0.635" size="1.27" layer="21" ratio="16">+</text>
+<text x="-1.651" y="2.794" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-1.27" y="1.016" size="0.762" layer="51" ratio="10">&gt;NAME</text>
+</package>
+<package name="10ROUND32P">
+<description>Round device, .1 lead spacing, .32 diameter, polarized</description>
+<circle x="0" y="0" radius="4.064" width="0.254" layer="21"/>
+<pad name="+" x="-1.27" y="0" drill="0.7366" diameter="1.905"/>
+<pad name="-" x="1.27" y="0" drill="0.7366" diameter="1.905"/>
+<text x="-5.969" y="-1.016" size="1.905" layer="21" ratio="14">+</text>
+<text x="-0.762" y="1.27" size="0.762" layer="51" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="4.445" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+</package>
+<package name="20ROUND40P">
+<description>Round device, .2 lead spacing, .40 diameter, polarized</description>
+<circle x="0" y="0" radius="5.08" width="0.254" layer="21"/>
+<pad name="-" x="2.54" y="0" drill="0.889" diameter="2.54"/>
+<pad name="+" x="-2.54" y="0" drill="0.889" diameter="2.54"/>
+<text x="-3.175" y="1.27" size="1.905" layer="21" ratio="14">+</text>
+<text x="1.905" y="1.27" size="1.905" layer="21" ratio="14">-</text>
+<text x="-6.35" y="-0.635" size="1.27" layer="21" ratio="16">+</text>
+<text x="-2.286" y="-6.604" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-0.889" y="-2.286" size="0.762" layer="51" ratio="10">&gt;NAME</text>
+</package>
+<package name="AX-900-280-30-P">
+<description>Axial, .9 lead spacing, .28 body dia, .030 max lead dia, polarized&lt;br&gt;
+Kemet T262 series C case</description>
+<wire x1="-10.16" y1="7.112" x2="10.16" y2="7.112" width="0.254" layer="21"/>
+<wire x1="10.16" y1="7.112" x2="10.16" y2="-7.112" width="0.254" layer="21"/>
+<wire x1="10.16" y1="-7.112" x2="-10.16" y2="-7.112" width="0.254" layer="21"/>
+<wire x1="-10.16" y1="-7.112" x2="-10.16" y2="7.112" width="0.254" layer="21"/>
+<pad name="+" x="-11.43" y="0" drill="0.889" diameter="2.032"/>
+<pad name="-" x="11.43" y="0" drill="0.889" diameter="2.032"/>
+<text x="-10.4775" y="1.5875" size="1.905" layer="21" ratio="14" rot="R90">+</text>
+<text x="12.3825" y="1.5875" size="1.905" layer="21" ratio="14" rot="R90">-</text>
+<text x="-9.525" y="-1.27" size="2.54" layer="21" ratio="10">+</text>
+<text x="7.9375" y="-1.27" size="2.54" layer="21" ratio="10">-</text>
+<text x="-2.921" y="-5.715" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-9.525" y="5.207" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
+<text x="-1.397" y="-0.381" size="0.762" layer="51" ratio="10">&gt;NAME</text>
+<text x="-11.938" y="-1.016" size="1.27" layer="25" ratio="16" rot="R270">&gt;NAME</text>
+</package>
+<package name="RAD-100-250-30-P">
+<description>Radial, .1 lead spacing, .25 diameter, .030 lead dia, polarized</description>
+<circle x="0" y="0" radius="3.175" width="0.254" layer="21"/>
+<pad name="+" x="-1.27" y="0" drill="0.889" diameter="1.778"/>
+<pad name="-" x="1.27" y="0" drill="0.889" diameter="1.778"/>
+<text x="-1.905" y="0.9525" size="1.905" layer="21" ratio="14">+</text>
+<text x="0.635" y="0.9525" size="1.905" layer="21" ratio="14">-</text>
+<text x="-4.445" y="-0.635" size="1.27" layer="21" ratio="16">+</text>
+<text x="-1.651" y="-4.699" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-1.016" y="-1.905" size="0.762" layer="51" ratio="10">&gt;NAME</text>
+</package>
+<package name="RAD-300-650-35-P">
+<description>Radial, .3 lead spacing, .65 diameter, .035 lead dia, polarized</description>
+<circle x="0" y="0" radius="8.255" width="0.254" layer="21"/>
+<pad name="+" x="-3.81" y="0" drill="1.016" diameter="2.032"/>
+<pad name="-" x="3.81" y="0" drill="1.016" diameter="2.032"/>
+<text x="-6.985" y="-1.27" size="2.54" layer="21" ratio="10">+</text>
+<text x="5.08" y="-1.27" size="2.54" layer="21" ratio="10">-</text>
+<text x="-9.8425" y="-0.9525" size="1.905" layer="21" ratio="14">+</text>
+<text x="-1.778" y="-9.779" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-2.413" y="-4.445" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-7.239" y="1.905" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
+<text x="-1.397" y="-0.381" size="0.762" layer="51" ratio="10">&gt;NAME</text>
+</package>
+<package name="RAD-300-710-35-P">
+<description>Radial, .3 lead spacing, .71 diameter, .035 lead dia, polarized</description>
+<circle x="0" y="0" radius="9.017" width="0.254" layer="21"/>
+<pad name="+" x="-3.81" y="0" drill="1.016" diameter="2.032"/>
+<pad name="-" x="3.81" y="0" drill="1.016" diameter="2.032"/>
+<text x="-10.795" y="-0.9525" size="1.905" layer="21" ratio="14">+</text>
+<text x="-6.985" y="-1.27" size="2.54" layer="21" ratio="10">+</text>
+<text x="5.3975" y="-1.27" size="2.54" layer="21" ratio="10">-</text>
+<text x="-1.651" y="-10.541" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-2.54" y="-4.445" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-7.62" y="2.54" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
+<text x="-1.651" y="-0.381" size="0.762" layer="51" ratio="10">&gt;NAME</text>
+</package>
+<package name="RAD-200-500-30-P">
+<description>Radial, .2 lead spacing, .5 diameter, .030 lead dia, polarized</description>
+<circle x="0" y="0" radius="6.35" width="0.254" layer="21"/>
+<pad name="+" x="-2.54" y="0" drill="0.889" diameter="2.032"/>
+<pad name="-" x="2.54" y="0" drill="0.889" diameter="2.032"/>
+<text x="-5.3975" y="-0.9525" size="1.905" layer="21" ratio="13">+</text>
+<text x="4.1275" y="-0.9525" size="1.905" layer="21" ratio="13">-</text>
+<text x="-7.62" y="-0.635" size="1.27" layer="21" ratio="16">+</text>
+<text x="-2.159" y="6.604" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-1.905" y="3.937" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="0.381" y="-0.635" size="0.762" layer="51" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-5.08" y="-2.921" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
+</package>
+<package name="RAD-200-400-30-P">
+<description>Radial, .2 lead spacing, .4 diameter, .036 max lead dia, polarized</description>
+<circle x="0" y="0" radius="5.08" width="0.254" layer="21"/>
+<pad name="POS" x="-2.54" y="0" drill="1.016" diameter="2.032"/>
+<pad name="NEG" x="2.54" y="0" drill="1.016" diameter="2.032"/>
+<text x="-6.35" y="-0.635" size="1.27" layer="21" ratio="16">+</text>
+<text x="-4.7625" y="-0.635" size="1.27" layer="21" ratio="16">+</text>
+<text x="3.81" y="-0.635" size="1.27" layer="21" ratio="16">-</text>
+<text x="-1.27" y="-6.6675" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-3.81" y="-2.54" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
+<text x="0.381" y="-0.889" size="0.762" layer="51" ratio="10" rot="R90">&gt;NAME</text>
+</package>
+<package name="RAD-295-710-36-P">
+<description>Radial, .295 lead spacing, .71 diameter, .036 max dia leads, polarized</description>
+<circle x="0" y="0" radius="9.017" width="0.254" layer="21"/>
+<pad name="+" x="-3.7465" y="0" drill="1.016" diameter="2.032"/>
+<pad name="-" x="3.7465" y="0" drill="1.016" diameter="2.032"/>
+<text x="-10.795" y="-0.9525" size="1.905" layer="21" ratio="14">+</text>
+<text x="-6.985" y="-1.27" size="2.54" layer="21" ratio="10">+</text>
+<text x="5.3975" y="-1.27" size="2.54" layer="21" ratio="10">-</text>
+<text x="-1.778" y="-10.541" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-8.001" y="1.905" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
+<text x="-1.397" y="-0.381" size="0.762" layer="51" ratio="10">&gt;NAME</text>
+</package>
+<package name="RAD-295-650-36-P">
+<description>Radial, .295 lead spacing, .65 diameter, .036 lead dia, polarized</description>
+<circle x="0" y="0" radius="8.255" width="0.254" layer="21"/>
+<pad name="+" x="-3.7465" y="0" drill="1.016" diameter="2.032"/>
+<pad name="-" x="3.7465" y="0" drill="1.016" diameter="2.032"/>
+<text x="-9.8425" y="-0.9525" size="1.905" layer="21" ratio="14">+</text>
+<text x="-6.985" y="-1.27" size="2.54" layer="21" ratio="10">+</text>
+<text x="5.3975" y="-1.27" size="2.54" layer="21" ratio="10">-</text>
+<text x="-1.905" y="-9.779" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-2.667" y="-3.81" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-6.731" y="2.54" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
+<text x="-1.524" y="-0.381" size="0.762" layer="51" ratio="10">&gt;NAME</text>
+</package>
+<package name="PANA-SMD-D">
+<description>Panasonic SMD cap D size, 6.6 x 7.8mm</description>
+<wire x1="3.6" y1="-3.4" x2="3.6" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="3.6" y1="3.4" x2="3.6" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="-3.6" y1="-0.7" x2="-3.6" y2="-2.1" width="0.2032" layer="21"/>
+<wire x1="-3.6" y1="-2.1" x2="-2.3" y2="-3.4" width="0.2032" layer="21"/>
+<wire x1="-2.3" y1="-3.4" x2="3.6" y2="-3.4" width="0.2032" layer="21"/>
+<wire x1="-3.6" y1="0.7" x2="-3.6" y2="2.1" width="0.2032" layer="21"/>
+<wire x1="-3.6" y1="2.1" x2="-2.3" y2="3.4" width="0.2032" layer="21"/>
+<wire x1="-2.3" y1="3.4" x2="3.6" y2="3.4" width="0.2032" layer="21"/>
+<smd name="-" x="2.7" y="0" dx="1" dy="3.6" layer="1" rot="R270"/>
+<smd name="+" x="-2.7" y="0" dx="1" dy="3.6" layer="1" rot="R270"/>
+<text x="-4.88" y="1.805" size="1.27" layer="21" ratio="16" rot="R270">+</text>
+<text x="-2.286" y="-4.953" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="0.381" y="-0.762" size="0.762" layer="51" ratio="10" rot="R90">&gt;NAME</text>
+</package>
+<package name="PANA-SMD-B">
+<description>Panasonic SMD cap B size, 4.3 x 5.5mm</description>
+<wire x1="2.4" y1="-2.2" x2="2.4" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="2.2" x2="2.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-0.7" x2="-2.4" y2="-1.3" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.3" x2="-1.5" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="-1.5" y1="-2.2" x2="2.4" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="0.7" x2="-2.4" y2="1.3" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="1.3" x2="-1.5" y2="2.2" width="0.2032" layer="21"/>
+<wire x1="-1.5" y1="2.2" x2="2.4" y2="2.2" width="0.2032" layer="21"/>
+<smd name="-" x="1.9" y="0" dx="2.8" dy="1" layer="1"/>
+<smd name="+" x="-1.9" y="0" dx="2.8" dy="1" layer="1"/>
+<text x="-3.68" y="1.805" size="1.27" layer="21" ratio="16" rot="R270">+</text>
+<text x="-1.505" y="-3.68" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="0.381" y="-1.016" size="0.762" layer="51" ratio="10" rot="R90">&gt;NAME</text>
+</package>
+<package name="PANA-SMD-C">
+<description>Panasonic SMD cap C size, 5.3 x 6.5mm</description>
+<wire x1="2.9" y1="-2.7" x2="2.9" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="2.9" y1="2.7" x2="2.9" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="-2.9" y1="-0.7" x2="-2.9" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="-2.9" y1="-1.6" x2="-1.8" y2="-2.7" width="0.2032" layer="21"/>
+<wire x1="-1.8" y1="-2.7" x2="2.9" y2="-2.7" width="0.2032" layer="21"/>
+<wire x1="-2.9" y1="0.7" x2="-2.9" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="-2.9" y1="1.6" x2="-1.8" y2="2.7" width="0.2032" layer="21"/>
+<wire x1="-1.8" y1="2.7" x2="2.9" y2="2.7" width="0.2032" layer="21"/>
+<smd name="+" x="-2.4" y="0" dx="3.2" dy="1" layer="1"/>
+<smd name="-" x="2.4" y="0" dx="3.2" dy="1" layer="1"/>
+<text x="-4.18" y="1.805" size="1.27" layer="21" ratio="16" rot="R270">+</text>
+<text x="-1.778" y="-4.191" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="0.381" y="-1.016" size="0.762" layer="51" ratio="10" rot="R90">&gt;NAME</text>
+</package>
+<package name="PANA-SMD-E">
+<description>Panasonic SMD cap E size, 8.3 x 9.5mm</description>
+<wire x1="4.4" y1="-4.2" x2="4.4" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="4.4" y1="4.2" x2="4.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="-4.4" y1="-0.7" x2="-4.4" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="-4.4" y1="-2.9" x2="-3.1" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="-3.1" y1="-4.2" x2="4.4" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="-4.4" y1="0.7" x2="-4.4" y2="2.9" width="0.2032" layer="21"/>
+<wire x1="-4.4" y1="2.9" x2="-3.1" y2="4.2" width="0.2032" layer="21"/>
+<wire x1="-3.1" y1="4.2" x2="4.4" y2="4.2" width="0.2032" layer="21"/>
+<smd name="+" x="-3.3" y="0" dx="4.4" dy="1" layer="1"/>
+<smd name="-" x="3.3" y="0" dx="4.4" dy="1" layer="1"/>
+<text x="-5.68" y="1.805" size="1.27" layer="21" ratio="16" rot="R270">+</text>
+<text x="-3.048" y="-5.715" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="0.381" y="-1.016" size="0.762" layer="51" ratio="10" rot="R90">&gt;NAME</text>
+</package>
+<package name="PANA-SMD-F">
+<description>Panasonic SMD cap F size, 8.3 x 10.0mm</description>
+<wire x1="4.3" y1="-4.4" x2="4.3" y2="-0.8" width="0.2032" layer="21"/>
+<wire x1="4.3" y1="4.4" x2="4.3" y2="0.8" width="0.2032" layer="21"/>
+<wire x1="-4.3" y1="-0.8" x2="-4.3" y2="-3" width="0.2032" layer="21"/>
+<wire x1="-4.3" y1="-3" x2="-2.9" y2="-4.4" width="0.2032" layer="21"/>
+<wire x1="-2.9" y1="-4.4" x2="4.3" y2="-4.4" width="0.2032" layer="21"/>
+<wire x1="-4.3" y1="0.8" x2="-4.3" y2="3" width="0.2032" layer="21"/>
+<wire x1="-4.3" y1="3" x2="-2.9" y2="4.4" width="0.2032" layer="21"/>
+<wire x1="-2.9" y1="4.4" x2="4.3" y2="4.4" width="0.2032" layer="21"/>
+<smd name="+" x="-3.7" y="0" dx="4.4" dy="1.25" layer="1"/>
+<smd name="-" x="3.7" y="0" dx="4.4" dy="1.25" layer="1"/>
+<text x="-5.58" y="1.905" size="1.27" layer="21" ratio="16" rot="R270">+</text>
+<text x="-2.921" y="-5.969" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="0.381" y="-0.889" size="0.762" layer="51" ratio="10" rot="R90">&gt;NAME</text>
+</package>
+<package name="PANA-SMD-G">
+<description>Panasonic SMD cap G size, 10.3 x 12.0mm</description>
+<wire x1="5.3" y1="-5.2" x2="5.3" y2="-0.8" width="0.2032" layer="21"/>
+<wire x1="5.3" y1="5.2" x2="5.3" y2="0.8" width="0.2032" layer="21"/>
+<wire x1="-5.3" y1="-0.8" x2="-5.3" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="-5.3" y1="-3.7" x2="-3.8" y2="-5.2" width="0.2032" layer="21"/>
+<wire x1="-3.8" y1="-5.2" x2="5.3" y2="-5.2" width="0.2032" layer="21"/>
+<wire x1="-5.3" y1="0.8" x2="-5.3" y2="3.7" width="0.2032" layer="21"/>
+<wire x1="-5.3" y1="3.7" x2="-3.8" y2="5.2" width="0.2032" layer="21"/>
+<wire x1="-3.8" y1="5.2" x2="5.3" y2="5.2" width="0.2032" layer="21"/>
+<smd name="+" x="-4.6" y="0" dx="4.6" dy="1.25" layer="1"/>
+<smd name="-" x="4.6" y="0" dx="4.6" dy="1.25" layer="1"/>
+<text x="-6.58" y="1.905" size="1.27" layer="21" ratio="16" rot="R270">+</text>
+<text x="-3.805" y="-6.68" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="0.381" y="-0.635" size="0.762" layer="51" ratio="10" rot="R90">&gt;NAME</text>
+</package>
+<package name="PANA-SMD-H">
+<description>Panasonic SMD cap H size, 13.5 x 15.0mm</description>
+<wire x1="7" y1="6.8" x2="7" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="7" y1="6.8" x2="-5.2" y2="6.8" width="0.2032" layer="21"/>
+<wire x1="-5.2" y1="6.8" x2="-7" y2="5" width="0.2032" layer="21"/>
+<wire x1="-7" y1="5" x2="-7" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="-7" y1="-1.2" x2="-7" y2="-5" width="0.2032" layer="21"/>
+<wire x1="-7" y1="-5" x2="-5.2" y2="-6.8" width="0.2032" layer="21"/>
+<wire x1="-5.2" y1="-6.8" x2="7" y2="-6.8" width="0.2032" layer="21"/>
+<wire x1="7" y1="-6.8" x2="7" y2="-1.2" width="0.2032" layer="21"/>
+<smd name="+" x="-5" y="0" dx="6" dy="2" layer="1"/>
+<smd name="-" x="5" y="0" dx="6" dy="2" layer="1"/>
+<text x="-8.2" y="1" size="1.27" layer="21" ratio="16">+</text>
+<text x="-8.7" y="-1" size="1.27" layer="25" ratio="16" rot="R270">&gt;NAME</text>
+<text x="-2.1" y="2.4" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-6.1" y="-4.6" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
+<text x="0.381" y="-1.016" size="0.762" layer="51" ratio="10" rot="R90">&gt;NAME</text>
+</package>
+<package name="PANA-SMD-K">
+<description>Panasonic SMD cap K size, 19.0 x 21.0mm</description>
+<wire x1="9.5" y1="9.5" x2="9.5" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="-7" y1="9.5" x2="-9.5" y2="7" width="0.2032" layer="21"/>
+<wire x1="-9.5" y1="7" x2="-9.5" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="-9.5" y1="-1.2" x2="-9.5" y2="-7" width="0.2032" layer="21"/>
+<wire x1="-9.5" y1="-7" x2="-7" y2="-9.5" width="0.2032" layer="21"/>
+<wire x1="9.5" y1="-9.5" x2="9.5" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="-7" y1="9.5" x2="-3.7" y2="9.5" width="0.254" layer="21"/>
+<wire x1="9.5" y1="9.5" x2="3.7" y2="9.5" width="0.254" layer="21"/>
+<wire x1="9.5" y1="-9.5" x2="3.7" y2="-9.5" width="0.254" layer="21"/>
+<wire x1="-7" y1="-9.5" x2="-3.7" y2="-9.5" width="0.254" layer="21"/>
+<smd name="-" x="7" y="0" dx="8" dy="2" layer="1"/>
+<smd name="+" x="-7" y="0" dx="8" dy="2" layer="1"/>
+<smd name="DUM1" x="0" y="8.75" dx="7" dy="4.5" layer="1"/>
+<smd name="DUM2" x="0" y="-8.75" dx="7" dy="4.5" layer="1"/>
+<text x="-10.9" y="1" size="1.27" layer="21" ratio="16">+</text>
+<text x="-11.1" y="-1" size="1.27" layer="25" ratio="16" rot="R270">&gt;NAME</text>
+<text x="-2" y="4" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-8" y="-5" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
+<text x="0.381" y="-0.889" size="0.762" layer="51" ratio="10" rot="R90">&gt;NAME</text>
+</package>
+<package name="PANA-SMD-J">
+<description>Panasonic SMD cap J size, 17.0 x 19.0mm</description>
+<wire x1="8.5" y1="8.5" x2="8.5" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="-5.5" y1="8.5" x2="-8.5" y2="5.4" width="0.2032" layer="21"/>
+<wire x1="-8.5" y1="5.4" x2="-8.5" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="8.5" y1="-1.2" x2="8.5" y2="-8.4" width="0.2032" layer="21"/>
+<wire x1="-5.5" y1="-8.4" x2="-8.5" y2="-5.4" width="0.2032" layer="21"/>
+<wire x1="-8.5" y1="-5.4" x2="-8.5" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="-5.5" y1="8.5" x2="-3.7" y2="8.5" width="0.2032" layer="21"/>
+<wire x1="8.5" y1="8.5" x2="3.7" y2="8.5" width="0.2032" layer="21"/>
+<wire x1="8.5" y1="-8.4" x2="3.7" y2="-8.4" width="0.2032" layer="21"/>
+<wire x1="-5.5" y1="-8.4" x2="-3.7" y2="-8.4" width="0.2032" layer="21"/>
+<smd name="-" x="6.5" y="0" dx="7" dy="2" layer="1"/>
+<smd name="+" x="-6.5" y="0" dx="7" dy="2" layer="1"/>
+<smd name="DUM1" x="0" y="8.25" dx="7" dy="3.5" layer="1"/>
+<smd name="DUM2" x="0" y="-8.25" dx="7" dy="3.5" layer="1"/>
+<text x="-9.9" y="1.2" size="1.27" layer="21" ratio="16">+</text>
+<text x="-10.2" y="-1.2" size="1.27" layer="25" ratio="16" rot="R270">&gt;NAME</text>
+<text x="-2" y="3" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-7" y="-4" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
+<text x="0.381" y="-1.143" size="0.762" layer="51" ratio="10" rot="R90">&gt;NAME</text>
+</package>
+<package name="KYB18">
+<description>Chemi-Con KYB series, 18mm diameter</description>
+<circle x="0" y="0" radius="9.25" width="0.2032" layer="21"/>
+<pad name="+" x="-3.75" y="0" drill="0.889" diameter="1.905"/>
+<pad name="-" x="3.75" y="0" drill="0.889" diameter="1.905"/>
+<text x="-1.905" y="-10.922" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-5.842" y="-4.699" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
+<text x="-1.016" y="-0.381" size="0.762" layer="51" ratio="10">&gt;NAME</text>
+<text x="-6.604" y="-1.016" size="1.905" layer="27" ratio="11">+</text>
+<text x="-10.795" y="-1.016" size="1.905" layer="27" ratio="11">+</text>
+<text x="5.334" y="-1.016" size="1.905" layer="27" ratio="11">-</text>
+<text x="9.652" y="-1.016" size="1.905" layer="27" ratio="11">-</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CAPP-U">
+<wire x1="2.54" y1="-0.508" x2="0" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="0" y1="-0.508" x2="-2.54" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-0.762" x2="2.54" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-0.762" x2="2.54" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0.508" x2="2.54" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0.762" x2="-2.54" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0.762" x2="-2.54" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0.508" x2="0" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.508" x2="2.54" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.508" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-0.508" width="0.1524" layer="94"/>
+<text x="-1.27" y="1.016" size="1.27" layer="94">+</text>
+<text x="-1.27" y="-2.286" size="1.27" layer="94">-</text>
+<text x="1.27" y="1.016" size="1.905" layer="95">&gt;NAME</text>
+<text x="1.27" y="-3.048" size="1.905" layer="96">&gt;VALUE</text>
+<pin name="+" x="0" y="2.54" visible="off" length="point" direction="pas" rot="R270"/>
+<pin name="-" x="0" y="-2.54" visible="off" length="point" direction="pas" rot="R90"/>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="-0.508"/>
+<vertex x="-2.54" y="-0.508"/>
+<vertex x="-2.54" y="-0.762"/>
+<vertex x="2.54" y="-0.762"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="0.508"/>
+<vertex x="2.54" y="0.762"/>
+<vertex x="-2.54" y="0.762"/>
+<vertex x="-2.54" y="0.508"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CAPP-U" prefix="C" uservalue="yes">
+<description>Polarized capacitor, positive up</description>
+<gates>
+<gate name="G$1" symbol="CAPP-U" x="0" y="0"/>
+</gates>
+<devices>
+<device name="A" package="30ROUND65P">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+</technology>
+</technologies>
+</device>
+<device name="B" package="30ROUND90P">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+</technology>
+</technologies>
+</device>
+<device name="C" package="AXUP65P">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+</technology>
+</technologies>
+</device>
+<device name="D" package="RAD-100-200-30-P">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+</technology>
+</technologies>
+</device>
+<device name="E" package="10ROUND32P">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+</technology>
+</technologies>
+</device>
+<device name="F" package="20ROUND40P">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+</technology>
+</technologies>
+</device>
+<device name="G" package="AX-900-280-30-P">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+</technology>
+</technologies>
+</device>
+<device name="H" package="RAD-100-250-30-P">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+</technology>
+</technologies>
+</device>
+<device name="I" package="RAD-300-650-35-P">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+</technology>
+</technologies>
+</device>
+<device name="J" package="RAD-300-710-35-P">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+</technology>
+</technologies>
+</device>
+<device name="K" package="RAD-200-500-30-P">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+</technology>
+</technologies>
+</device>
+<device name="L" package="RAD-200-400-30-P">
+<connects>
+<connect gate="G$1" pin="+" pad="POS"/>
+<connect gate="G$1" pin="-" pad="NEG"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+</technology>
+</technologies>
+</device>
+<device name="M" package="RAD-295-710-36-P">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+</technology>
+</technologies>
+</device>
+<device name="N" package="RAD-295-650-36-P">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+</technology>
+</technologies>
+</device>
+<device name="O" package="PANA-SMD-D">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+</technology>
+</technologies>
+</device>
+<device name="P" package="PANA-SMD-B">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+</technology>
+</technologies>
+</device>
+<device name="Q" package="PANA-SMD-C">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+</technology>
+</technologies>
+</device>
+<device name="R" package="PANA-SMD-E">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+</technology>
+</technologies>
+</device>
+<device name="S" package="PANA-SMD-F">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+</technology>
+</technologies>
+</device>
+<device name="T" package="PANA-SMD-G">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+</technology>
+</technologies>
+</device>
+<device name="U" package="PANA-SMD-H">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+</technology>
+</technologies>
+</device>
+<device name="W" package="PANA-SMD-K">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+</technology>
+</technologies>
+</device>
+<device name="V" package="PANA-SMD-J">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+</technology>
+</technologies>
+</device>
+<device name="-FK-63V-100UF" package="PANA-SMD-G">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+<attribute name="DVAL" value="100 uF, 63 V, low ESR" constant="no"/>
+<attribute name="MANUF" value="Pansonic:EEEFK1J101P" constant="no"/>
+<attribute name="SUBST" value="no" constant="no"/>
+<attribute name="SUPPLIER" value="Mouser:667-EEE-FK1J101P" constant="no"/>
+<attribute name="VALSTAT" value="val" constant="no"/>
+<attribute name="VALUE" value="100uF 63V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-FK-35V-330UF" package="PANA-SMD-G">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, polarized"/>
+<attribute name="DVAL" value="330uF, 35V, low ESR" constant="no"/>
+<attribute name="MANUF" value="Panasonic:EEEFK1V331P" constant="no"/>
+<attribute name="SUBST" value="no" constant="no"/>
+<attribute name="SUPPLIER" value="Mouser:667-EEE-FK1V331P" constant="no"/>
+<attribute name="VALSTAT" value="val" constant="no"/>
+<attribute name="VALUE" value="330uF 35V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-FK-25V-470UF" package="PANA-SMD-G">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, electrolytic"/>
+<attribute name="DVAL" value="470uF, 25V, low ESR, 5000 h"/>
+<attribute name="MANUF" value="Panasonic:EEE-FK1E471GP"/>
+<attribute name="SUBST" value="no"/>
+<attribute name="SUPPLIER" value="Mouser:667-EEE-FK1E471GP" constant="no"/>
+<attribute name="VALSTAT" value="val" constant="no"/>
+<attribute name="VALUE" value="470uF 25V"/>
+</technology>
+</technologies>
+</device>
+<device name="KYB-25V-4700UF" package="KYB18">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, electrolytic"/>
+<attribute name="DVAL" value="4.7 mF, 25 V, 10000 h"/>
+<attribute name="MANUF" value="United Chemi-Con:EKYB250ELL472MM25S"/>
+<attribute name="SUBST" value="no"/>
+<attribute name="SUPPLIER" value="Mouser:661-EKYB250E472MM25S" constant="no"/>
+<attribute name="VALSTAT" value="val" constant="no"/>
+<attribute name="VALUE" value="4.7mF 25V"/>
+</technology>
+</technologies>
+</device>
+<device name="-FK-6.3V-1500UF" package="PANA-SMD-G">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, electrolytic"/>
+<attribute name="DVAL" value="1.5 mF, 6.3 V, low ESR"/>
+<attribute name="MANUF" value="Panasonic:EEEFK0J152P"/>
+<attribute name="SUBST" value="no"/>
+<attribute name="SUPPLIER" value="Mouser:667-EEE-FK0J152P"/>
+<attribute name="VALSTAT" value="val"/>
+<attribute name="VALUE" value="1.5mF 6.3V"/>
+</technology>
+</technologies>
+</device>
+<device name="-FK-10V-1000UF" package="PANA-SMD-G">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, electrolytic" constant="no"/>
+<attribute name="DVAL" value="1 mF, 10 V, low ESR" constant="no"/>
+<attribute name="MANUF" value="Panasonic:EEEFK1A102P" constant="no"/>
+<attribute name="SUBST" value="no" constant="no"/>
+<attribute name="SUPPLIER" value="Mouser:667-EEE-FK1A102P" constant="no"/>
+<attribute name="VALSTAT" value="val" constant="no"/>
+<attribute name="VALUE" value="1mF 10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-FK-16V-680UF" package="PANA-SMD-G">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESC" value="Capacitor, electrolytic" constant="no"/>
+<attribute name="DVAL" value="680 uF, 16 V, low ESR" constant="no"/>
+<attribute name="MANUF" value="Panasonic:EEEFK1C681P" constant="no"/>
+<attribute name="SUBST" value="no" constant="no"/>
+<attribute name="SUPPLIER" value="Mouser:667-EEE-FK1C681P" constant="no"/>
+<attribute name="VALSTAT" value="val" constant="no"/>
+<attribute name="VALUE" value="680uF 16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -580,6 +1344,8 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <part name="15V" library="con-molex" deviceset="22-23-2021" device="" value=""/>
 <part name="IN" library="con-molex" deviceset="22-23-2021" device="" value=""/>
 <part name="JUMPER" library="con-molex" deviceset="22-23-2021" device="" value=""/>
+<part name="C1" library="capacitor" deviceset="CAPP-U" device="F"/>
+<part name="OUT" library="con-molex" deviceset="22-23-2021" device="" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -608,6 +1374,12 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <instance part="IN" gate="-2" x="-22.86" y="48.26" rot="R180"/>
 <instance part="JUMPER" gate="-1" x="-22.86" y="45.72" rot="R180"/>
 <instance part="JUMPER" gate="-2" x="-22.86" y="43.18" rot="R180"/>
+<instance part="C1" gate="G$1" x="81.28" y="48.26"/>
+<instance part="OUT" gate="-1" x="93.98" y="63.5" smashed="yes">
+<attribute name="NAME" x="96.52" y="62.738" size="1.524" layer="95"/>
+<attribute name="VALUE" x="98.298" y="59.817" size="1.778" layer="96"/>
+</instance>
+<instance part="OUT" gate="-2" x="93.98" y="35.56"/>
 </instances>
 <busses>
 <bus name="B$1">
@@ -620,35 +1392,34 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 </bus>
 </busses>
 <nets>
-<net name="N$1" class="0">
-<segment>
-<pinref part="Q1" gate="G$1" pin="S"/>
-<pinref part="L1" gate="1" pin="1"/>
-<wire x1="22.86" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="63.5" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="63.5" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="D1" gate="1" pin="C"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="Q2" gate="G$1" pin="D"/>
 <pinref part="L1" gate="1" pin="2"/>
-<wire x1="48.26" y1="63.5" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="50.8" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="D2" gate="1" pin="A"/>
+<wire x1="48.26" y1="63.5" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G$1" pin="D"/>
 <wire x1="55.88" y1="63.5" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="50.8" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
+<junction x="55.88" y="63.5"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="S"/>
 <wire x1="55.88" y1="40.64" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="D1" gate="1" pin="A"/>
-<wire x1="25.4" y1="35.56" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="VLINE" gate="-2" pin="S"/>
 <wire x1="-21.59" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="-"/>
+<wire x1="25.4" y1="35.56" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="45.72" x2="81.28" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="35.56" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
+<junction x="55.88" y="35.56"/>
+<pinref part="D1" gate="1" pin="A"/>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
+<junction x="25.4" y="35.56"/>
+<pinref part="OUT" gate="-2" pin="S"/>
+<wire x1="91.44" y1="35.56" x2="81.28" y2="35.56" width="0.1524" layer="91"/>
+<junction x="81.28" y="35.56"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -746,6 +1517,28 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <pinref part="U$2" gate="G$1" pin="IN"/>
 <wire x1="35.56" y1="45.72" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
 <label x="35.56" y="48.26" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="D2" gate="1" pin="C"/>
+<wire x1="68.58" y1="63.5" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="63.5" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="+"/>
+<pinref part="OUT" gate="-1" pin="S"/>
+<wire x1="91.44" y1="63.5" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
+<junction x="81.28" y="63.5"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="Q1" gate="G$1" pin="S"/>
+<pinref part="L1" gate="1" pin="1"/>
+<wire x1="22.86" y1="63.5" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="D1" gate="1" pin="C"/>
+<wire x1="25.4" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="50.8" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
+<junction x="25.4" y="63.5"/>
 </segment>
 </net>
 </nets>
