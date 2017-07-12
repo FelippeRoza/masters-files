@@ -521,15 +521,20 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 </packages>
 <symbols>
 <symbol name="ZXGD3006E6">
-<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<pin name="SOURCE" x="7.62" y="2.54" length="middle" rot="R180"/>
-<pin name="SINK" x="7.62" y="-2.54" length="middle" rot="R180"/>
-<pin name="VEE" x="0" y="-10.16" length="middle" rot="R90"/>
-<pin name="IN" x="-7.62" y="0" length="middle"/>
-<pin name="VCC" x="0" y="10.16" length="middle" rot="R270"/>
+<wire x1="-2.54" y1="3.81" x2="2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-3.81" x2="-2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="3.81" width="0.254" layer="94"/>
+<pin name="SOURCE" x="5.08" y="2.54" visible="off" length="short" rot="R180"/>
+<pin name="SINK" x="5.08" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="VEE" x="-5.08" y="-2.54" visible="off" length="short"/>
+<pin name="IN" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="VCC" x="-5.08" y="2.54" visible="off" length="short"/>
+<text x="0" y="2.54" size="0.508" layer="94">SOURCE</text>
+<text x="-1.905" y="2.54" size="0.508" layer="94">VCC</text>
+<text x="-1.905" y="0" size="0.508" layer="94">IN</text>
+<text x="-1.905" y="-2.54" size="0.508" layer="94">VEE</text>
+<text x="0.635" y="-2.54" size="0.508" layer="94">SINK</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -569,8 +574,12 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <part name="Q1" library="transistor-power" deviceset="IRLZ44Z" device=""/>
 <part name="L1" library="inductors" deviceset="RKE16" device=""/>
 <part name="Q2" library="transistor-power" deviceset="IRLZ44Z" device=""/>
-<part name="VIN" library="con-molex" deviceset="22-23-2021" device="" value="2PIN"/>
+<part name="VLINE" library="con-molex" deviceset="22-23-2021" device="" value=""/>
 <part name="U$1" library="felippe" deviceset="ZXGD3006E6" device=""/>
+<part name="U$2" library="felippe" deviceset="ZXGD3006E6" device=""/>
+<part name="15V" library="con-molex" deviceset="22-23-2021" device="" value=""/>
+<part name="IN" library="con-molex" deviceset="22-23-2021" device="" value=""/>
+<part name="JUMPER" library="con-molex" deviceset="22-23-2021" device="" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -578,16 +587,26 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 </plain>
 <instances>
 <instance part="D1" gate="1" x="25.4" y="48.26" rot="R90"/>
-<instance part="D2" gate="1" x="58.42" y="63.5"/>
+<instance part="D2" gate="1" x="66.04" y="63.5"/>
 <instance part="Q1" gate="G$1" x="17.78" y="60.96" rot="R90"/>
-<instance part="L1" gate="1" x="35.56" y="63.5"/>
-<instance part="Q2" gate="G$1" x="43.18" y="48.26"/>
-<instance part="VIN" gate="-1" x="-1.27" y="63.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="-3.81" y="64.262" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-4.318" y="67.183" size="1.778" layer="96" rot="R180"/>
+<instance part="L1" gate="1" x="40.64" y="63.5"/>
+<instance part="Q2" gate="G$1" x="53.34" y="45.72"/>
+<instance part="VLINE" gate="-1" x="-1.27" y="63.5" rot="R180"/>
+<instance part="VLINE" gate="-2" x="-1.27" y="35.56" rot="R180"/>
+<instance part="U$1" gate="G$1" x="12.7" y="50.8"/>
+<instance part="U$2" gate="G$1" x="40.64" y="45.72"/>
+<instance part="15V" gate="-1" x="-7.62" y="55.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="-10.16" y="56.642" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-11.938" y="59.563" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="VIN" gate="-2" x="-1.27" y="35.56" rot="R180"/>
-<instance part="U$1" gate="G$1" x="5.08" y="48.26"/>
+<instance part="15V" gate="-2" x="-7.62" y="53.34" rot="R180"/>
+<instance part="IN" gate="-1" x="-7.62" y="48.26" smashed="yes" rot="R180">
+<attribute name="NAME" x="-10.16" y="49.022" size="1.524" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-11.938" y="51.943" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="IN" gate="-2" x="-7.62" y="45.72" rot="R180"/>
+<instance part="JUMPER" gate="-1" x="-7.62" y="43.18" rot="R180"/>
+<instance part="JUMPER" gate="-2" x="-7.62" y="40.64" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -596,8 +615,8 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <pinref part="L1" gate="1" pin="1"/>
-<wire x1="22.86" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="63.5" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="63.5" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="63.5" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="D1" gate="1" pin="C"/>
 </segment>
@@ -605,29 +624,51 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <net name="N$2" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="D"/>
-<wire x1="45.72" y1="53.34" x2="45.72" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="L1" gate="1" pin="2"/>
-<wire x1="43.18" y1="63.5" x2="45.72" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="63.5" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="53.34" x2="45.72" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="63.5" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="50.8" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="D2" gate="1" pin="A"/>
+<wire x1="55.88" y1="63.5" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="S"/>
-<wire x1="45.72" y1="43.18" x2="45.72" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="40.64" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="D1" gate="1" pin="A"/>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="VIN" gate="-2" pin="S"/>
+<pinref part="VLINE" gate="-2" pin="S"/>
 <wire x1="1.27" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="D"/>
-<pinref part="VIN" gate="-1" pin="S"/>
+<pinref part="VLINE" gate="-1" pin="S"/>
 <wire x1="1.27" y1="63.5" x2="12.7" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="SOURCE"/>
+<wire x1="17.78" y1="53.34" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
+<wire x1="20.32" y1="53.34" x2="20.32" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="SINK"/>
+<wire x1="17.78" y1="48.26" x2="20.32" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="48.26" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="SOURCE"/>
+<wire x1="48.26" y1="48.26" x2="45.72" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="43.18" x2="48.26" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="SINK"/>
+<wire x1="45.72" y1="43.18" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G$1" pin="G"/>
+<wire x1="48.26" y1="43.18" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
