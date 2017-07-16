@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -346,6 +346,21 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <text x="-2.54" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="22-23-2031">
+<description>.100" (2.54mm) Center Header - 3 Pin</description>
+<wire x1="-3.81" y1="3.175" x2="3.81" y2="3.175" width="0.254" layer="21"/>
+<wire x1="3.81" y1="3.175" x2="3.81" y2="1.27" width="0.254" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="3.81" y1="-3.175" x2="-3.81" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="-3.81" y1="-3.175" x2="-3.81" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="3.175" width="0.254" layer="21"/>
+<wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.254" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1" shape="long" rot="R90"/>
+<text x="-3.81" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MV">
@@ -379,6 +394,31 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <attribute name="MPN" value="22-23-2021" constant="no"/>
 <attribute name="OC_FARNELL" value="1462926" constant="no"/>
 <attribute name="OC_NEWARK" value="25C3832" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="22-23-2031" prefix="X">
+<description>.100" (2.54mm) Center Header - 3 Pin</description>
+<gates>
+<gate name="-1" symbol="MV" x="0" y="2.54" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="M" x="0" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-3" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="22-23-2031">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="22-23-2031" constant="no"/>
+<attribute name="OC_FARNELL" value="1462950" constant="no"/>
+<attribute name="OC_NEWARK" value="30C0862" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1239,6 +1279,39 @@ Kemet T262 series C case</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="supply1">
+<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
+ GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
+ Please keep in mind, that these devices are necessary for the
+ automatic wiring of the supply signals.&lt;p&gt;
+ The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
+ In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="GND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GND" prefix="GND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1253,10 +1326,13 @@ Kemet T262 series C case</description>
 <part name="D2" library="diode" deviceset="MUR820" device=""/>
 <part name="L1" library="inductors" deviceset="RKE16" device=""/>
 <part name="VLINE" library="con-molex" deviceset="22-23-2021" device="" value=""/>
-<part name="C1" library="capacitor" deviceset="CAPP-U" device="F"/>
+<part name="COUT" library="capacitor" deviceset="CAPP-U" device="F"/>
 <part name="OUT" library="con-molex" deviceset="22-23-2021" device="" value=""/>
 <part name="Q1" library="felippe" deviceset="IRF640" device=""/>
 <part name="Q2" library="felippe" deviceset="IRF640" device=""/>
+<part name="GND1" library="supply1" deviceset="GND" device=""/>
+<part name="CONTROL" library="con-molex" deviceset="22-23-2031" device=""/>
+<part name="CIN" library="capacitor" deviceset="CAPP-U" device="F"/>
 </parts>
 <sheets>
 <sheet>
@@ -1266,16 +1342,23 @@ Kemet T262 series C case</description>
 <instance part="D1" gate="1" x="25.4" y="48.26" rot="R90"/>
 <instance part="D2" gate="1" x="66.04" y="63.5"/>
 <instance part="L1" gate="1" x="40.64" y="63.5"/>
-<instance part="VLINE" gate="-1" x="-24.13" y="63.5" rot="R180"/>
-<instance part="VLINE" gate="-2" x="-24.13" y="35.56" rot="R180"/>
-<instance part="C1" gate="G$1" x="81.28" y="48.26"/>
-<instance part="OUT" gate="-1" x="93.98" y="63.5" smashed="yes">
-<attribute name="NAME" x="96.52" y="62.738" size="1.524" layer="95"/>
-<attribute name="VALUE" x="98.298" y="59.817" size="1.778" layer="96"/>
+<instance part="VLINE" gate="-1" x="-25.4" y="63.5" rot="R180"/>
+<instance part="VLINE" gate="-2" x="-25.4" y="35.56" rot="R180"/>
+<instance part="COUT" gate="G$1" x="81.28" y="48.26"/>
+<instance part="OUT" gate="-1" x="88.9" y="63.5" smashed="yes">
+<attribute name="NAME" x="91.44" y="62.738" size="1.524" layer="95"/>
+<attribute name="VALUE" x="93.218" y="59.817" size="1.778" layer="96"/>
 </instance>
-<instance part="OUT" gate="-2" x="93.98" y="35.56"/>
+<instance part="OUT" gate="-2" x="88.9" y="35.56"/>
 <instance part="Q1" gate="G$1" x="17.78" y="60.96" rot="R90"/>
 <instance part="Q2" gate="G$1" x="53.34" y="45.72"/>
+<instance part="GND1" gate="1" x="25.4" y="33.02"/>
+<instance part="CONTROL" gate="-1" x="2.54" y="48.26" smashed="yes" rot="R180">
+<attribute name="NAME" x="0" y="49.022" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="CONTROL" gate="-2" x="2.54" y="45.72" rot="R180"/>
+<instance part="CONTROL" gate="-3" x="2.54" y="43.18" rot="R180"/>
+<instance part="CIN" gate="G$1" x="-17.78" y="48.26"/>
 </instances>
 <busses>
 </busses>
@@ -1291,36 +1374,27 @@ Kemet T262 series C case</description>
 <pinref part="Q2" gate="G$1" pin="D"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<wire x1="55.88" y1="40.64" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="VLINE" gate="-2" pin="S"/>
-<wire x1="-21.59" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="-"/>
-<wire x1="25.4" y1="35.56" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="45.72" x2="81.28" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="35.56" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
-<junction x="55.88" y="35.56"/>
-<pinref part="D1" gate="1" pin="A"/>
-<wire x1="25.4" y1="45.72" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
-<junction x="25.4" y="35.56"/>
-<pinref part="OUT" gate="-2" pin="S"/>
-<wire x1="91.44" y1="35.56" x2="81.28" y2="35.56" width="0.1524" layer="91"/>
-<junction x="81.28" y="35.56"/>
-<pinref part="Q2" gate="G$1" pin="S"/>
-</segment>
-</net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="VLINE" gate="-1" pin="S"/>
-<wire x1="-21.59" y1="63.5" x2="12.7" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="63.5" x2="-17.78" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
+<pinref part="CIN" gate="G$1" pin="+"/>
+<wire x1="-17.78" y1="63.5" x2="12.7" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="50.8" x2="-17.78" y2="63.5" width="0.1524" layer="91"/>
+<junction x="-17.78" y="63.5"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="CONTROL1" class="0">
 <segment>
-<wire x1="20.32" y1="48.26" x2="20.32" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="G"/>
+<pinref part="Q2" gate="G$1" pin="G"/>
+<wire x1="50.8" y1="43.18" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
+<label x="48.26" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CONTROL" gate="-1" pin="S"/>
+<wire x1="5.08" y1="48.26" x2="5.08" y2="50.8" width="0.1524" layer="91"/>
+<label x="5.08" y="50.8" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -1328,9 +1402,9 @@ Kemet T262 series C case</description>
 <pinref part="D2" gate="1" pin="C"/>
 <wire x1="68.58" y1="63.5" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="63.5" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="+"/>
+<pinref part="COUT" gate="G$1" pin="+"/>
 <pinref part="OUT" gate="-1" pin="S"/>
-<wire x1="91.44" y1="63.5" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="63.5" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
 <junction x="81.28" y="63.5"/>
 </segment>
 </net>
@@ -1343,6 +1417,43 @@ Kemet T262 series C case</description>
 <wire x1="25.4" y1="50.8" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
 <junction x="25.4" y="63.5"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<wire x1="55.88" y1="40.64" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="VLINE" gate="-2" pin="S"/>
+<wire x1="-22.86" y1="35.56" x2="-17.78" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="COUT" gate="G$1" pin="-"/>
+<wire x1="-17.78" y1="35.56" x2="12.7" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="35.56" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="45.72" x2="81.28" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="35.56" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
+<junction x="55.88" y="35.56"/>
+<pinref part="D1" gate="1" pin="A"/>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
+<junction x="25.4" y="35.56"/>
+<pinref part="OUT" gate="-2" pin="S"/>
+<wire x1="86.36" y1="35.56" x2="81.28" y2="35.56" width="0.1524" layer="91"/>
+<junction x="81.28" y="35.56"/>
+<pinref part="Q2" gate="G$1" pin="S"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="CONTROL" gate="-3" pin="S"/>
+<wire x1="5.08" y1="43.18" x2="12.7" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="43.18" x2="12.7" y2="35.56" width="0.1524" layer="91"/>
+<junction x="12.7" y="35.56"/>
+<pinref part="CIN" gate="G$1" pin="-"/>
+<wire x1="-17.78" y1="45.72" x2="-17.78" y2="35.56" width="0.1524" layer="91"/>
+<junction x="-17.78" y="35.56"/>
+</segment>
+</net>
+<net name="CONTROL2" class="0">
+<segment>
+<pinref part="CONTROL" gate="-2" pin="S"/>
+<wire x1="5.08" y1="45.72" x2="20.32" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
+<wire x1="20.32" y1="45.72" x2="20.32" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
