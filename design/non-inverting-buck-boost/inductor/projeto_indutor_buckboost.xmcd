@@ -1,0 +1,1532 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?validation-md5-digest fe7a88d9099c73c55c95fe3897b9aff9?>
+<worksheet version="3.0.3" xmlns="http://schemas.mathsoft.com/worksheet30" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ws="http://schemas.mathsoft.com/worksheet30" xmlns:ml="http://schemas.mathsoft.com/math30" xmlns:u="http://schemas.mathsoft.com/units10" xmlns:p="http://schemas.mathsoft.com/provenance10" xmlns:prd="http://schemas.mathsoft.com/point-release-data">
+	<pointReleaseData/>
+	<metadata>
+		<generator>Mathcad Professional 14.0</generator>
+		<userData>
+			<title/>
+			<description/>
+			<author>Helmut</author>
+			<company>Parametric Technology Corporation</company>
+			<keywords/>
+			<revisedBy>Helmut</revisedBy>
+		</userData>
+		<identityInfo>
+			<revision>1</revision>
+			<documentID>3B05A485-E66D-4657-8158-7B81BE9BAEA3</documentID>
+			<versionID>4C03CB64-3BA7-462D-9E1C-3B2002AE0A58</versionID>
+			<parentVersionID>00000000-0000-0000-0000-000000000000</parentVersionID>
+			<branchID>00000000-0000-0000-0000-000000000000</branchID>
+		</identityInfo>
+	</metadata>
+	<settings>
+		<presentation>
+			<textRendering>
+				<textStyles>
+					<textStyle name="Normal">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 1">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="14" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 2">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="12" font-weight="bold" font-style="italic" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Heading 3">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="12" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Paragraph">
+						<blockAttr margin-left="0" margin-right="0" text-indent="21" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="List">
+						<blockAttr margin-left="14.25" margin-right="0" text-indent="-14.25" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Indent">
+						<blockAttr margin-left="108" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Title">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Times New Roman" font-charset="0" font-size="24" font-weight="bold" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+					<textStyle name="Subtitle" base-style="Title">
+						<blockAttr margin-left="0" margin-right="0" text-indent="inherit" text-align="center" list-style-type="inherit" tabs="inherit"/>
+						<inlineAttr font-family="Times New Roman" font-charset="0" font-size="18" font-weight="normal" font-style="normal" underline="false" line-through="false" vertical-align="baseline"/>
+					</textStyle>
+				</textStyles>
+			</textRendering>
+			<mathRendering equation-color="#000">
+				<operators multiplication="narrow-dot" derivative="derivative" literal-subscript="large" definition="colon-equal" global-definition="triple-equal" local-definition="left-arrow" equality="bold-equal" symbolic-evaluation="right-arrow"/>
+				<mathStyles>
+					<mathStyle name="Variables" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Constants" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 1" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 2" font-family="Courier New" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 3" font-family="Arial" font-charset="0" font-size="10" font-weight="bold" font-style="normal" underline="false"/>
+					<mathStyle name="User 4" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="italic" underline="false"/>
+					<mathStyle name="User 5" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 6" font-family="Arial" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="User 7" font-family="Times New Roman" font-charset="0" font-size="10" font-weight="normal" font-style="normal" underline="false"/>
+					<mathStyle name="Math Text Font" font-family="Times New Roman" font-charset="0" font-size="14" font-weight="normal" font-style="normal" underline="false"/>
+				</mathStyles>
+				<dimensionNames mass="mass" length="length" time="time" current="current" thermodynamic-temperature="temperature" luminous-intensity="luminosity" amount-of-substance="substance" display="false"/>
+				<symbolics derivation-steps-style="vertical-insert" show-comments="false" evaluate-in-place="false"/>
+				<results numeric-only="true">
+					<general precision="3" show-trailing-zeros="false" radix="dec" complex-threshold="10" zero-threshold="15" imaginary-value="i" exponential-threshold="3"/>
+					<matrix display-style="auto" expand-nested-arrays="false"/>
+					<unit format-units="true" simplify-units="true" fractional-unit-exponent="false"/>
+				</results>
+			</mathRendering>
+			<pageModel show-page-frame="false" show-header-frame="false" show-footer-frame="false" header-footer-start-page="1" paper-code="9" orientation="portrait" print-single-page-width="false" page-width="595.5" page-height="841.5">
+				<margins left="86.4" right="86.4" top="86.4" bottom="86.4"/>
+				<header use-full-page-width="false"/>
+				<footer use-full-page-width="false"/>
+			</pageModel>
+			<colorModel background-color="#fff" default-highlight-color="#ffff80"/>
+			<language math="en" UI="en"/>
+		</presentation>
+		<calculation>
+			<builtInVariables array-origin="0" convergence-tolerance="0.001" constraint-tolerance="0.001" random-seed="1" prn-precision="4" prn-col-width="8"/>
+			<calculationBehavior automatic-recalculation="true" matrix-strict-singularity-check="true" optimize-expressions="false" exact-boolean="true" strings-use-origin="false" zero-over-zero="0">
+				<compatibility multiple-assignment="MC12" local-assignment="MC12"/>
+			</calculationBehavior>
+			<units>
+				<currentUnitSystem name="si" customized="false"/>
+			</units>
+		</calculation>
+		<editor view-annotations="false" view-regions="false">
+			<ruler is-visible="false" ruler-unit="cm"/>
+			<grid granularity-x="6" granularity-y="6"/>
+		</editor>
+		<fileFormat image-type="image/png" image-quality="75" save-numeric-results="true" exclude-large-results="false" save-text-images="false" screen-dpi="96"/>
+		<miscellaneous>
+			<handbook handbook-region-tag-ub="391" can-delete-original-handbook-regions="true" can-delete-user-regions="true" can-print="true" can-copy="true" can-save="true" file-permission-mask="4294967295"/>
+		</miscellaneous>
+	</settings>
+	<regions>
+		<region region-id="1" left="12" top="8.25" width="164.25" height="12" align-x="12" align-y="18" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<b>Projeto Físico do Indutor</b>
+				</p>
+			</text>
+		</region>
+		<region region-id="59" left="12" top="26.25" width="121.5" height="12" align-x="41.25" align-y="36" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="false">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<b>Especificações de projeto</b>
+				</p>
+			</text>
+		</region>
+		<region region-id="105" left="12" top="51" width="56.25" height="12.75" align-x="26.25" align-y="60" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">Li</ml:id>
+					<ml:apply>
+						<ml:mult style="auto-select"/>
+						<ml:real>1.704</ml:real>
+						<ml:id xml:space="preserve">mH</ml:id>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="1"/>
+		</region>
+		<region region-id="89" left="150" top="50.25" width="86.25" height="12" align-x="171" align-y="60" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="false">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Indutância desejada</p>
+			</text>
+		</region>
+		<region region-id="103" left="12" top="75" width="47.25" height="12.75" align-x="27" align-y="84" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">fs</ml:id>
+					<ml:apply>
+						<ml:mult style="auto-select"/>
+						<ml:real>30</ml:real>
+						<ml:id xml:space="preserve">kHz</ml:id>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="2"/>
+		</region>
+		<region region-id="104" left="150" top="74.25" width="121.5" height="12" align-x="171.75" align-y="84" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="false">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Frequencia de chaveamento</p>
+			</text>
+		</region>
+		<region region-id="106" left="12" top="99" width="50.25" height="16.5" align-x="42" align-y="108" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve" subscript="Lmax">I</ml:id>
+					<ml:apply>
+						<ml:mult style="auto-select"/>
+						<ml:real>3</ml:real>
+						<ml:id xml:space="preserve">A</ml:id>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="3"/>
+		</region>
+		<region region-id="116" left="150" top="98.25" width="120" height="12" align-x="166.5" align-y="108" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="false">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Corrente máxima do indutor</p>
+			</text>
+		</region>
+		<region region-id="108" left="12" top="123" width="55.5" height="16.5" align-x="36" align-y="132" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve" subscript="Lef">I</ml:id>
+					<ml:apply>
+						<ml:mult style="auto-select"/>
+						<ml:real>2.87</ml:real>
+						<ml:id xml:space="preserve">A</ml:id>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="4"/>
+		</region>
+		<region region-id="117" left="150" top="122.25" width="111" height="12" align-x="166.5" align-y="132" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="false">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Corrente eficaz do indutor</p>
+			</text>
+		</region>
+		<region region-id="118" left="12" top="147" width="401.25" height="12.75" align-x="211.5" align-y="156" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:id xml:space="preserve" xmlns:ml="http://schemas.mathsoft.com/math30">____________________________________________________________________________</ml:id>
+			</math>
+			<rendering item-idref="5"/>
+		</region>
+		<region region-id="2" left="12" top="182.25" width="85.5" height="12" align-x="26.25" align-y="192" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Máxima Indução:</p>
+			</text>
+		</region>
+		<region region-id="3" left="162" top="183" width="53.25" height="16.5" align-x="189.75" align-y="192" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287977844" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="17421628" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">2744e434d8bc7560736da0cebc4329ec</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve" subscript="max">B</ml:id>
+						<ml:apply>
+							<ml:mult style="auto-select"/>
+							<ml:real>0.3</ml:real>
+							<ml:id xml:space="preserve">T</ml:id>
+						</ml:apply>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="6">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="51.75" height="15" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="4" left="12" top="212.25" width="85.5" height="24" align-x="26.25" align-y="222" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Máxima Densidade</p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">de Corrente:</p>
+			</text>
+		</region>
+		<region region-id="5" left="162" top="206.25" width="67.5" height="33.75" align-x="187.5" align-y="222" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287977924" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287977844" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">3063b8e8a50390a5ac1a599d2413b26a</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve" subscript="max">J</ml:id>
+						<ml:apply>
+							<ml:mult style="auto-select"/>
+							<ml:real>450</ml:real>
+							<ml:apply>
+								<ml:div/>
+								<ml:id xml:space="preserve">A</ml:id>
+								<ml:apply>
+									<ml:pow/>
+									<ml:id xml:space="preserve">cm</ml:id>
+									<ml:real>2</ml:real>
+								</ml:apply>
+							</ml:apply>
+						</ml:apply>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="7">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="66" height="32.25" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="6" left="12" top="254.25" width="85.5" height="24" align-x="26.25" align-y="264" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Fator de Ocupação </p>
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">do Cobre:</p>
+			</text>
+		</region>
+		<region region-id="7" left="162" top="255" width="37.5" height="16.5" align-x="180" align-y="264" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287977804" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287977844" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">ec16dbdb4f516ac458304897f468ab1f</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve" subscript="w">k</ml:id>
+						<ml:real>0.7</ml:real>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="8">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="36" height="15" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="8" left="12" top="290.25" width="85.5" height="24" align-x="26.25" align-y="300" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Permeabilidade do Ar:</p>
+			</text>
+		</region>
+		<region region-id="9" left="162" top="284.25" width="75.75" height="27.75" align-x="180" align-y="300" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287518116" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287977844" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">3b391fd2530642c1a069b9dc85e355e5</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve" subscript="o">μ</ml:id>
+						<ml:apply>
+							<ml:mult style="auto-select"/>
+							<ml:apply>
+								<ml:mult/>
+								<ml:apply>
+									<ml:mult/>
+									<ml:real>4</ml:real>
+									<ml:id xml:space="preserve">π</ml:id>
+								</ml:apply>
+								<ml:apply>
+									<ml:pow/>
+									<ml:real>10</ml:real>
+									<ml:real>-7</ml:real>
+								</ml:apply>
+							</ml:apply>
+							<ml:apply>
+								<ml:div/>
+								<ml:id xml:space="preserve">H</ml:id>
+								<ml:id xml:space="preserve">m</ml:id>
+							</ml:apply>
+						</ml:apply>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="9">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="74.25" height="26.25" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="10" left="12" top="338.25" width="85.5" height="12" align-x="26.25" align-y="348" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Produto de Áreas:</p>
+			</text>
+		</region>
+		<region region-id="11" left="156" top="328.5" width="101.25" height="35.25" align-x="189" align-y="348" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287978084" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287977964" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">b7558e630f18c6586bd867bca9093d81</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve">AeAw</ml:id>
+						<ml:apply>
+							<ml:div/>
+							<ml:apply>
+								<ml:mult/>
+								<ml:apply>
+									<ml:mult/>
+									<ml:id xml:space="preserve">Li</ml:id>
+									<ml:id xml:space="preserve" subscript="Lmax">I</ml:id>
+								</ml:apply>
+								<ml:id xml:space="preserve" subscript="Lef">I</ml:id>
+							</ml:apply>
+							<ml:apply>
+								<ml:mult/>
+								<ml:apply>
+									<ml:mult/>
+									<ml:id xml:space="preserve" subscript="max">B</ml:id>
+									<ml:id xml:space="preserve" subscript="max">J</ml:id>
+								</ml:apply>
+								<ml:id xml:space="preserve" subscript="w">k</ml:id>
+							</ml:apply>
+						</ml:apply>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="10">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="99.75" height="33.75" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="12" left="282" top="333" width="78" height="18.75" align-x="313.5" align-y="348" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:provenance expr-id="1">
+						<originRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287422716" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+							<hash/>
+						</originRef>
+						<parentRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287978164" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+							<hash/>
+						</parentRef>
+						<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+						<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+						<contentHash xmlns="http://schemas.mathsoft.com/provenance10">e2b84153df545aa3600862d823fba365</contentHash>
+						<ml:id xml:space="preserve">AeAw</ml:id>
+					</ml:provenance>
+					<ml:unitOverride>
+						<ml:apply>
+							<ml:pow/>
+							<ml:id xml:space="preserve">cm</ml:id>
+							<ml:real>4</ml:real>
+						</ml:apply>
+					</ml:unitOverride>
+					<result xmlns="http://schemas.mathsoft.com/math30">
+						<unitedValue>
+							<ml:real>1.5525333333333338</ml:real>
+							<unitMonomial xmlns="http://schemas.mathsoft.com/units10">
+								<unitReference unit="centimeter" power-numerator="4"/>
+							</unitMonomial>
+						</unitedValue>
+					</result>
+				</ml:eval>
+			</math>
+			<rendering item-idref="11">
+				<element-image-map>
+					<box left="1.5" top="6.75" width="25.5" height="11.25" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="13" left="156" top="380.25" width="306.75" height="12" align-x="170.25" align-y="390" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Adotou-se o núcleo E-42/21/20, com as seguintes características:</p>
+			</text>
+		</region>
+		<region region-id="14" left="156" top="399" width="54" height="22.5" align-x="174.75" align-y="414" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve" subscript="e">A</ml:id>
+					<ml:apply>
+						<ml:mult style="auto-select"/>
+						<ml:real>2.4</ml:real>
+						<ml:apply>
+							<ml:pow/>
+							<ml:id xml:space="preserve">cm</ml:id>
+							<ml:real>2</ml:real>
+						</ml:apply>
+					</ml:apply>
+				</ml:define>
+			</math>
+			<rendering item-idref="12"/>
+		</region>
+		<region region-id="15" left="156" top="429" width="60.75" height="22.5" align-x="177" align-y="444" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287978244" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287977964" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">560f2fb73a4f4d80e2a4bc179e8da921</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve" subscript="w">A</ml:id>
+						<ml:apply>
+							<ml:mult style="auto-select"/>
+							<ml:real>1.57</ml:real>
+							<ml:apply>
+								<ml:pow/>
+								<ml:id xml:space="preserve">cm</ml:id>
+								<ml:real>2</ml:real>
+							</ml:apply>
+						</ml:apply>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="13">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="59.25" height="21" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="16" left="12" top="476.25" width="98.25" height="12" align-x="26.25" align-y="486" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Número de Espiras:</p>
+			</text>
+		</region>
+		<region region-id="17" left="156" top="466.5" width="90.75" height="35.25" align-x="174.75" align-y="486" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287977924" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287978164" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">0fe24d219a3f524c3e8046de684215f0</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve">Ne</ml:id>
+						<ml:apply>
+							<ml:id xml:space="preserve">ceil</ml:id>
+							<ml:apply>
+								<ml:div/>
+								<ml:apply>
+									<ml:mult/>
+									<ml:id xml:space="preserve">Li</ml:id>
+									<ml:id xml:space="preserve" subscript="Lmax">I</ml:id>
+								</ml:apply>
+								<ml:apply>
+									<ml:mult/>
+									<ml:id xml:space="preserve" subscript="max">B</ml:id>
+									<ml:id xml:space="preserve" subscript="e">A</ml:id>
+								</ml:apply>
+							</ml:apply>
+						</ml:apply>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="14">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="89.25" height="33.75" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="18" left="282" top="477" width="39.75" height="12.75" align-x="299.25" align-y="486" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:provenance expr-id="1">
+						<originRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287978364" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+							<hash/>
+						</originRef>
+						<parentRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287978284" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+							<hash/>
+						</parentRef>
+						<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+						<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+						<contentHash xmlns="http://schemas.mathsoft.com/provenance10">ad19602222e7a649dc5a47f96f041f5f</contentHash>
+						<ml:id xml:space="preserve">Ne</ml:id>
+					</ml:provenance>
+					<result xmlns="http://schemas.mathsoft.com/math30">
+						<ml:real>71</ml:real>
+					</result>
+				</ml:eval>
+			</math>
+			<rendering item-idref="15">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="11.25" height="11.25" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="19" left="12" top="530.25" width="98.25" height="24" align-x="26.25" align-y="540" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Comprimento do Entreferro:</p>
+			</text>
+		</region>
+		<region region-id="20" left="156" top="514.5" width="68.25" height="37.5" align-x="167.25" align-y="540" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287978364" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287518076" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">40caaaee2c7ae18bd74c08a11b72ff7a</contentHash>
+					<ml:define warning="WarnRedefinedBIConstant">
+						<ml:id xml:space="preserve">e</ml:id>
+						<ml:apply>
+							<ml:div/>
+							<ml:apply>
+								<ml:mult/>
+								<ml:apply>
+									<ml:mult/>
+									<ml:apply>
+										<ml:pow/>
+										<ml:id xml:space="preserve">Ne</ml:id>
+										<ml:real>2</ml:real>
+									</ml:apply>
+									<ml:id xml:space="preserve" subscript="o">μ</ml:id>
+								</ml:apply>
+								<ml:id xml:space="preserve" subscript="e">A</ml:id>
+							</ml:apply>
+							<ml:id xml:space="preserve">Li</ml:id>
+						</ml:apply>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="16">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="66.75" height="36" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="21" left="282" top="531" width="54" height="12.75" align-x="291.75" align-y="540" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:provenance expr-id="1">
+						<originRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287978244" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+							<hash/>
+						</originRef>
+						<parentRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287518076" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+							<hash/>
+						</parentRef>
+						<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+						<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+						<contentHash xmlns="http://schemas.mathsoft.com/provenance10">d2531fe0fd950422c441b03566ec4235</contentHash>
+						<ml:id xml:space="preserve">e</ml:id>
+					</ml:provenance>
+					<ml:unitOverride>
+						<ml:id xml:space="preserve">mm</ml:id>
+					</ml:unitOverride>
+					<result xmlns="http://schemas.mathsoft.com/math30">
+						<unitedValue>
+							<ml:real>0.89221231361950115</ml:real>
+							<unitMonomial xmlns="http://schemas.mathsoft.com/units10">
+								<unitReference unit="millimeter"/>
+							</unitMonomial>
+						</unitedValue>
+					</result>
+				</ml:eval>
+			</math>
+			<rendering item-idref="17">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="3.75" height="11.25" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="22" left="12" top="578.25" width="98.25" height="24" align-x="26.25" align-y="588" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Profundidade de Penetração:</p>
+			</text>
+		</region>
+		<region region-id="23" left="156" top="572.25" width="87.75" height="29.25" align-x="183" align-y="588" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287978244" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287978164" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">ab219b832496f40e0afb23b9162bfe5b</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve" subscript="max">d</ml:id>
+						<ml:apply>
+							<ml:mult/>
+							<ml:apply>
+								<ml:mult/>
+								<ml:apply>
+									<ml:div/>
+									<ml:real>15</ml:real>
+									<ml:apply>
+										<ml:sqrt/>
+										<ml:id xml:space="preserve">fs</ml:id>
+									</ml:apply>
+								</ml:apply>
+								<ml:apply>
+									<ml:sqrt/>
+									<ml:id xml:space="preserve">Hz</ml:id>
+								</ml:apply>
+							</ml:apply>
+							<ml:id xml:space="preserve">cm</ml:id>
+						</ml:apply>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="18">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="86.25" height="27.75" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="24" left="282" top="573" width="95.25" height="22.5" align-x="307.5" align-y="588" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:provenance expr-id="1">
+						<originRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287977964" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+							<hash/>
+						</originRef>
+						<parentRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287518116" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+							<hash/>
+						</parentRef>
+						<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+						<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+						<contentHash xmlns="http://schemas.mathsoft.com/provenance10">5638433e307e93179a6de7dbac9ab6fb</contentHash>
+						<ml:id xml:space="preserve" subscript="max">d</ml:id>
+					</ml:provenance>
+					<result xmlns="http://schemas.mathsoft.com/math30">
+						<unitedValue>
+							<ml:real>0.0008660254037844387</ml:real>
+							<unitMonomial xmlns="http://schemas.mathsoft.com/units10">
+								<unitReference unit="meter"/>
+							</unitMonomial>
+						</unitedValue>
+					</result>
+				</ml:eval>
+			</math>
+			<rendering item-idref="19">
+				<element-image-map>
+					<box left="1.5" top="6.75" width="19.5" height="15" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="25" left="156" top="614.25" width="313.5" height="12" align-x="170.25" align-y="624" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">O condutor máximo a ser utilizado é 21AWG, com a seguinte área:</p>
+			</text>
+		</region>
+		<region region-id="26" left="156" top="633" width="84.75" height="22.5" align-x="183" align-y="648" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287977924" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287977964" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">f1088ba0f67613258bd7eaa8f9a7eb69</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve" subscript="max">S</ml:id>
+						<ml:apply>
+							<ml:mult style="auto-select"/>
+							<ml:real>0.004105</ml:real>
+							<ml:apply>
+								<ml:pow/>
+								<ml:id xml:space="preserve">cm</ml:id>
+								<ml:real>2</ml:real>
+							</ml:apply>
+						</ml:apply>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="20">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="83.25" height="21" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="27" left="12" top="668.25" width="98.25" height="12" align-x="26.25" align-y="678" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Área do Fio Condutor:</p>
+			</text>
+		</region>
+		<region region-id="28" left="156" top="658.5" width="52.5" height="35.25" align-x="178.5" align-y="678" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287978244" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287978164" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">cd373bb1f6c6eeb13bea4183a7e1da3f</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve" subscript="fio">S</ml:id>
+						<ml:apply>
+							<ml:div/>
+							<ml:id xml:space="preserve" subscript="Lef">I</ml:id>
+							<ml:id xml:space="preserve" subscript="max">J</ml:id>
+						</ml:apply>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="21">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="51" height="33.75" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="29" left="282" top="663" width="81" height="22.5" align-x="303" align-y="678" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:provenance expr-id="1">
+						<originRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287422716" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+							<hash/>
+						</originRef>
+						<parentRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287978164" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+							<hash/>
+						</parentRef>
+						<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+						<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+						<contentHash xmlns="http://schemas.mathsoft.com/provenance10">b384aca3159f6041702d259989d561d2</contentHash>
+						<ml:id xml:space="preserve" subscript="fio">S</ml:id>
+					</ml:provenance>
+					<ml:unitOverride>
+						<ml:apply>
+							<ml:pow/>
+							<ml:id xml:space="preserve">cm</ml:id>
+							<ml:real>2</ml:real>
+						</ml:apply>
+					</ml:unitOverride>
+					<result xmlns="http://schemas.mathsoft.com/math30">
+						<unitedValue>
+							<ml:real>0.0063777777777777774</ml:real>
+							<unitMonomial xmlns="http://schemas.mathsoft.com/units10">
+								<unitReference unit="centimeter" power-numerator="2"/>
+							</unitMonomial>
+						</unitedValue>
+					</result>
+				</ml:eval>
+				<resultFormat numeric-only="true">
+					<decimal precision="6" show-trailing-zeros="false" radix="dec" complex-threshold="10" zero-threshold="15" imaginary-value="i"/>
+					<matrix display-style="auto" expand-nested-arrays="false"/>
+					<unit format-units="true" simplify-units="true" fractional-unit-exponent="false"/>
+				</resultFormat>
+			</math>
+			<rendering item-idref="22">
+				<element-image-map>
+					<box left="1.5" top="6.75" width="15" height="15" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="30" left="12" top="716.25" width="98.25" height="24" align-x="26.25" align-y="726" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Número de Fios em Paralelo:</p>
+			</text>
+		</region>
+		<region region-id="31" left="156" top="706.5" width="43.5" height="35.25" align-x="168" align-y="726" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287978324" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287518116" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">48aabf6679d32aab0f39e06d18e9de36</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve">n</ml:id>
+						<ml:apply>
+							<ml:div/>
+							<ml:id xml:space="preserve" subscript="fio">S</ml:id>
+							<ml:id xml:space="preserve" subscript="max">S</ml:id>
+						</ml:apply>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="23">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="42" height="33.75" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="32" left="282" top="717" width="44.25" height="12.75" align-x="292.5" align-y="726" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:provenance expr-id="1">
+						<originRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287518116" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+							<hash/>
+						</originRef>
+						<parentRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287978324" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+							<hash/>
+						</parentRef>
+						<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+						<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+						<contentHash xmlns="http://schemas.mathsoft.com/provenance10">2fc2bc3854167dcfe4e6af223b558145</contentHash>
+						<ml:id xml:space="preserve">n</ml:id>
+					</ml:provenance>
+					<result xmlns="http://schemas.mathsoft.com/math30">
+						<ml:real>1.5536608472053051</ml:real>
+					</result>
+				</ml:eval>
+			</math>
+			<rendering item-idref="24">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="4.5" height="11.25" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="33" left="282" top="741" width="24.75" height="12.75" align-x="294" align-y="750" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:define warning="WarnRedefinedUDScalar" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:id xml:space="preserve">n</ml:id>
+					<ml:real>2</ml:real>
+				</ml:define>
+			</math>
+			<rendering item-idref="25"/>
+		</region>
+		<region region-id="391" left="150" top="764.25" width="81" height="12" align-x="162.75" align-y="774" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">utilizar 2 fios AWG</p>
+			</text>
+		</region>
+		<region region-id="371" left="150" top="830.25" width="297.75" height="12" align-x="164.25" align-y="840" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">O fio adotado é 21 AWG com a seguinte área:</p>
+			</text>
+		</region>
+		<region region-id="372" left="150" top="849" width="77.25" height="22.5" align-x="169.5" align-y="864" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287518116" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287977924" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">8a77d8b0e12e6512dc64cd5fb441bfc9</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve" subscript="xx">S</ml:id>
+						<ml:apply>
+							<ml:mult style="auto-select"/>
+							<ml:real>0.005004</ml:real>
+							<ml:apply>
+								<ml:pow/>
+								<ml:id xml:space="preserve">cm</ml:id>
+								<ml:real>2</ml:real>
+							</ml:apply>
+						</ml:apply>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="26">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="75.75" height="21" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="373" left="12" top="896.25" width="98.25" height="24" align-x="26.25" align-y="906" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Possibilidade de Execução:</p>
+			</text>
+		</region>
+		<region region-id="374" left="150" top="886.5" width="87.75" height="35.25" align-x="190.5" align-y="906" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287977964" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287978164" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">60b7895be900c1f644a44a710b0d04ed</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve" subscript="w_min">A</ml:id>
+						<ml:apply>
+							<ml:div/>
+							<ml:apply>
+								<ml:mult/>
+								<ml:apply>
+									<ml:mult/>
+									<ml:id xml:space="preserve">Ne</ml:id>
+									<ml:id xml:space="preserve" subscript="xx">S</ml:id>
+								</ml:apply>
+								<ml:id xml:space="preserve">n</ml:id>
+							</ml:apply>
+							<ml:id xml:space="preserve" subscript="w">k</ml:id>
+						</ml:apply>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="27">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="86.25" height="33.75" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="375" left="282" top="891" width="85.5" height="22.5" align-x="321" align-y="906" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:provenance expr-id="1">
+						<originRef doc-id="9168716F-7EC6-4B49-BBE5-6505C6AB3824" version-id="D25C0BAD-F5E8-4499-B32B-6AE41A23EEC9" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287977804" is-modified="false" region-id="0" href="E:\COBEP2013\PLANILHAS\Indutor_Comutacao_10u.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+							<hash/>
+						</originRef>
+						<parentRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287422716" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+							<hash/>
+						</parentRef>
+						<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+						<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+						<contentHash xmlns="http://schemas.mathsoft.com/provenance10">cce20354c92e4478166115a0ccbe6136</contentHash>
+						<ml:id xml:space="preserve" subscript="w_min">A</ml:id>
+					</ml:provenance>
+					<ml:unitOverride>
+						<ml:apply>
+							<ml:pow/>
+							<ml:id xml:space="preserve">cm</ml:id>
+							<ml:real>2</ml:real>
+						</ml:apply>
+					</ml:unitOverride>
+					<result xmlns="http://schemas.mathsoft.com/math30">
+						<unitedValue>
+							<ml:real>1.0150971428571429</ml:real>
+							<unitMonomial xmlns="http://schemas.mathsoft.com/units10">
+								<unitReference unit="centimeter" power-numerator="2"/>
+							</unitMonomial>
+						</unitedValue>
+					</result>
+				</ml:eval>
+			</math>
+			<rendering item-idref="28">
+				<element-image-map>
+					<box left="1.5" top="6.75" width="33" height="15" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="376" left="150" top="928.5" width="70.5" height="35.25" align-x="175.5" align-y="948" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:provenance expr-id="1" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<originRef doc-id="9168716F-7EC6-4B49-BBE5-6505C6AB3824" version-id="D25C0BAD-F5E8-4499-B32B-6AE41A23EEC9" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287978284" is-modified="false" region-id="0" href="E:\COBEP2013\PLANILHAS\Indutor_Comutacao_10u.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</originRef>
+					<parentRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287978164" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+						<hash/>
+					</parentRef>
+					<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+					<contentHash xmlns="http://schemas.mathsoft.com/provenance10">0032c811794a5adcd5d6b03068756c06</contentHash>
+					<ml:define>
+						<ml:id xml:space="preserve">Exec</ml:id>
+						<ml:apply>
+							<ml:div/>
+							<ml:id xml:space="preserve" subscript="w_min">A</ml:id>
+							<ml:id xml:space="preserve" subscript="w">A</ml:id>
+						</ml:apply>
+					</ml:define>
+				</ml:provenance>
+			</math>
+			<rendering item-idref="29">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="69" height="33.75" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="377" left="282" top="939" width="57.75" height="12.75" align-x="306" align-y="948" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<math optimize="false" disable-calc="false">
+				<ml:eval placeholderMultiplicationStyle="default" xmlns:ml="http://schemas.mathsoft.com/math30">
+					<ml:provenance expr-id="1">
+						<originRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287978164" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+							<hash/>
+						</originRef>
+						<parentRef doc-id="EADB198F-85FE-49DC-A5FD-6083B722CB3B" version-id="458F5059-01D3-435F-9645-9FD6DC7AB137" branch-id="00000000-0000-0000-0000-000000000000" revision-num="287978284" is-modified="false" region-id="0" href="C:\Users\Helmut\Documents\Engenharia Eletrônica\Discilpinas\8°Período\Eletrônica de Potência 2\Planilha de Projeto de um Conversor CC-CC MCC.xmcd" xmlns="http://schemas.mathsoft.com/provenance10">
+							<hash/>
+						</parentRef>
+						<comment xmlns="http://schemas.mathsoft.com/provenance10"/>
+						<originComment xmlns="http://schemas.mathsoft.com/provenance10"/>
+						<contentHash xmlns="http://schemas.mathsoft.com/provenance10">0fb6a0ffddf7ba185a00b36e02962c74</contentHash>
+						<ml:id xml:space="preserve">Exec</ml:id>
+					</ml:provenance>
+					<result xmlns="http://schemas.mathsoft.com/math30">
+						<ml:real>0.64655868971792541</ml:real>
+					</result>
+				</ml:eval>
+			</math>
+			<rendering item-idref="30">
+				<element-image-map>
+					<box left="1.5" top="0.75" width="18" height="11.25" expr-idref="1" xmlns="http://schemas.mathsoft.com/worksheet30"/>
+				</element-image-map>
+			</rendering>
+		</region>
+		<region region-id="378" left="282" top="956.25" width="108" height="24" align-x="295.5" align-y="966" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Fator de execução tem de ser menor que 0,7</p>
+			</text>
+		</region>
+		<region region-id="379" left="12" top="992.25" width="164.25" height="12" align-x="12" align-y="1002" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">
+					<b>Resumo das especificações</b>
+				</p>
+			</text>
+		</region>
+		<region region-id="380" left="12" top="1028.25" width="98.25" height="12" align-x="26.25" align-y="1038" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Núcleo: E-42/21/20</p>
+			</text>
+		</region>
+		<region region-id="381" left="12" top="1052.25" width="261" height="12" align-x="26.25" align-y="1062" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Número de Espiras: 71 espiras </p>
+			</text>
+		</region>
+		<region region-id="382" left="12" top="1076.25" width="98.25" height="12" align-x="26.25" align-y="1086" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Enreferro: mm</p>
+			</text>
+		</region>
+		<region region-id="383" left="12" top="1100.25" width="98.25" height="12" align-x="26.25" align-y="1110" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="inherit" margin-right="inherit" text-indent="inherit" text-align="inherit" list-style-type="inherit" tabs="inherit">Fio Condutor: 21 AWG</p>
+			</text>
+		</region>
+		<region region-id="384" left="12" top="1118.25" width="103.5" height="12" align-x="33" align-y="1128" show-border="false" show-highlight="false" is-protected="true" z-order="0" background-color="inherit" tag="">
+			<text use-page-width="false" push-down="false" lock-width="true">
+				<p style="Normal" margin-left="0" margin-right="0" text-indent="inherit" text-align="left" list-style-type="inherit" tabs="inherit">Indutância =<sp count="2"/>mH</p>
+			</text>
+		</region>
+	</regions>
+	<binaryContent>
+		<item item-id="1">iVBORw0KGgoAAAANSUhEUgAAAEsAAAARCAYAAACVW1F7AAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGdSURBVFhH7ZftEcIgDIaZi4GYh2my
+TIeJCYQSvlrQev4Q77yrCk3y5M1bNLhf0wTM9Mq9EDesBRFsWOuwDvTWoDHx7aC+A6Drfr8Q
+6WLp4S2aNqjsiLFTbkV+h0cbfrPojzYAuF4to0RKBikfvscZO2+Ni4c5P8OluUsAxQWPAgOg
+7h04J58ZokAK0NL3EkJArtbDcGxFPjVTjeFvYHFp18rSfClH5zGICJwC3OYO3tPa9eaPYDHA
+OVihS32pU6VhFFY7WCC4HEO1kmI56XoNuCiSQHI+xRgyXOsRRMlcfFK1VtKHsJJnDGCdtVQz
+r33mhuSssg7vTm/iPf0iKQ8fBzfDyr4X9kiD83Ue4cKjVA3PKOsBL5uDpUZQRrcLC2j8xOwL
+ZWlfG10L4J5nPQzr28oidWiFDjyrp4xGQV+BJbMfZXs3hu9LbEpZKZczTPU0JD+qTw9PKSs0
+gBolBj9SBc+y+q2T0McGzwpJ3pCU03lo5CNDafhz56xcgwN9LU/icHSh8VVnzZtz1vvK+Jed
+++/OQqc3rA1rgcDC0hdUzAT9DffYAQAAAABJRU5ErkJggg==</item>
+		<item item-id="2">iVBORw0KGgoAAAANSUhEUgAAAD8AAAARCAYAAABq+XSZAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF+SURBVFhH7VaLrcMgDGQuBmIepmEZ
+hnExH3N2CK96TatKaaWqFSK2784+x9GNP+7G2OkH/q7qG+UTBefI8Tekj3GSo285naeYIW2O
+5O15PQukq8sUfa8bak8BznwkDM1ZADwH6MlrAlPIu6gouUJHXEkQ0lkIrIcBD3Es+FYcg/WK
+PSIdU4OY4D8J+IzIFGbx5f8koilbeVkqvwdvCRnpG3hpL93ysx3L+aJtBEN//rVJKQDjbGar
+mKgK4KW+XtuZ8gKeCR1jzb8aALY6t9hsr5zSYWaOAprZw0RbZqbXjEIZGCq2Ak8pKo9QMw65
+JaZgaNi2bT+CnbXN1TbQlGyE78EXYtjgDKF/Kt8L5nv86BMzvzcZTcB/lR9RoNu2M+8phEKU
+GcWnwEPcbdtHcM5UkhkjvVp4tutztx9AYeYt2BX42r2rDTJXHez3Mivtrj7b7v0XDE+ZqvWF
+w56HzuK7YmB9DMw7it3zEfe+Mrzrdfz6iL93+6+X6E0F3lr5B5yk/1hn5WivAAAAAElFTkSu
+QmCC</item>
+		<item item-id="3">iVBORw0KGgoAAAANSUhEUgAAAEMAAAAWCAYAAACbiSE3AAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGfSURBVFhH7ZiNjcMgDIWZi4GYh2lY
+hmF8tvkzLqCm6enIiUpVo6Sk+PPzs1MD51UJmMOiETgwhBoOjBGM4AwYk98uPLp6orc5Fgs+
+jkPheFWcnTLoC3a2+il4ogeXY2Aow8QG8JaAOZBp/38wZNKCGyY3eo8QAjisBMlqTxiYXas2
+el2YEbwflXs7z6ViPZRK2hNGjRw3boWXFU+jz6WvpayTB76UPYKujBh685UJjH4TT/XTZKS9
+L3SNQgFbKCMB+VsQnyqjSIsUImGgcaoGwcByqWwO47pTdCvQQGU5Re8GrbYZaYXxOmcslEE/
+gjRD7udUl6W3yxqd3ZNq2YW0iWErv2GgbcaQviIVJpWilDdnP4OhzClvnIPi4/xjdFycWp7n
+lkamNXP7m2q4sXwxji+UoYOWAJRhAamIjUpkRLn4jf1/dekvwsgKYgdWRhZINftNu9dgYJY5
+tjeU0Y/CAgatTTfhkXin6X8CY9bSSOrtmgvymBjlByQKNntJffijUrEIk4ao7no/B3xV9xdv
+dh7hz/8ZY8kcZRxljJXxA5PqU1jNXjPfAAAAAElFTkSuQmCC</item>
+		<item item-id="4">iVBORw0KGgoAAAANSUhEUgAAAEoAAAAWCAYAAABnnAr9AAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHUSURBVFhH7ZiLccMgDIY9FwMxD9Ow
+DMOoPGQsgbBFk5b0Su5yiR3x0MevH5wD9ktF4FBF7SDYoJQi2KBmQXl7wHHg23pl8xVhAZw5
+52rABXkOwZmaj6lBHuyZI35KqWYWzQ9MUSng6nQFhOcxg7MVTk7IOOhZJSAIMTgw53fvgUrA
+W8uuy+g+LkSCzH/7c6AYygxBSJbdJ9B4Y3C2hxyci6iK8qio1oDKifCJPGtJiEj9iIrC8kyZ
+eitXSWxru7qN7VzRXKvWNaBqztRviEcm/9D45AgCllD2o0E/tISv6ThATgC0ZGPAABRPQDPn
+a72JYc41nBRVHEdUU+mmgMA8urh4Xyg7tqGh2Z+efaOoMshcrqmNYKJDBN9XlGzEOBArSSmP
+CLlLLJp4U4p550TI7wXVyHVSIurwlEDNU/KazsybBY8l23ISS5GYegXVn6MeFIWGnM5eWZ7k
+Op/H7qT4gpn35UEVfAGRz1F4AGDHAqpquoM2ah8v4x0oUmKZ+ky5qYXzUYE3jzA3oFr1nFv9
+L5XeCoIvgBod9MaPFSsSfNeYc6CqCRa11ced8/7/U9Ro2yYqouWXjZs/cM4dK9617j/Xz/6b
+Rcl2g9qglASUYVtRSlBfNHieynY4320AAAAASUVORK5CYII=</item>
+		<item item-id="5">iVBORw0KGgoAAAANSUhEUgAAAhcAAAARCAYAAABuH458AAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD0SURBVHhe7d2xDYBADARB1/VV0t8X
+YwI6QBsO0qcORhdsxqyPAAECBAgQIBAKTHjLKQIECBAgQIDAigsjIECAAAECBFIBcZFyOkaA
+AAECBAiICxsgQIAAAQIEUgFxkXI6RoAAAQIECIgLGyBAgAABAgRSAXGRcjpGgAABAgQIiAsb
+IECAAAECBFIBcZFyOkaAAAECBAiICxsgQIAAAQIEUgFxkXI6RoAAAQIECIgLGyBAgAABAgRS
+AXGRcjpGgAABAgQIiAsbIECAAAECBFKBLy7us2dmx2NgAzZgAzZgAzbwewNnn7v+ipqmmmME
+CBAgQIDAvg7NX1gf6TulAAAAAElFTkSuQmCC</item>
+		<item item-id="6">iVBORw0KGgoAAAANSUhEUgAAAEcAAAAWCAYAAACSYoFNAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHASURBVFhH7ZeBrYQgDIaZi4E6D9Ow
+jMP0QS1QKqioMc8Ll1xyp0jpx9+fanB+ugTMZNMnMOHsqGPCOYbjEYxBo7/W4fKVulscWlq/
+RddZ9OIs51jGlGuN/EvuCzprEHy6sv435cI/xhQ3lxMmSIA5jZyOQ2BqBITzWhxkmB4M2kQ2
+zCPKSsMJs8ZAX1CPB7GJjTz0tobxGYK4V8EJ13fhxMGvKYfL4opQpRJirjrJmk2A5za6oiGH
+cCrfubLS28XH5dzywM56IhyphD6c4q3PKKdVv7cBPDvBeThr3NWEt750qJxqc25I/Xr648oJ
+9TDmOcGu4S4c8pydo/E6gKefVKfV0SFSwSxr6Sin0+eEus9KihOGoJ57hVizqUfQ9Z59ix4u
+SgC/xmnVO52MMt4ov1afI+as+pmNdym1MtyTHbIyMg5KScq+Qh79Vb+RdrZ/UoyyeGP8STjc
+86Q61UB0/UaV0WkjTI+e6XevbyQ7GuNhOKwwkq0yPR8byk5Jja76pfGPwqmbMQEnqib7z3fU
+cxKONFX5O/UM3ElnUxQvcRYQ0jtavt9493lJDSNhTsIZmfJ3xk44O3s54Uw410r9Dz8tgSfV
+c4u6AAAAAElFTkSuQmCC</item>
+		<item item-id="7">iVBORw0KGgoAAAANSUhEUgAAAFoAAAAtCAYAAAAuj3x7AAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALISURBVHhe7ZoLsoMgDEVZFwtiPayG
+zbgYHkGQEMGGPsR2ms50xraoeLzcfKzy8lpCQC05i5zEC+hFIhDQAnoRgTdO44zyyrihPUXR
+Q7hgsPNWa6+UCVv8l4Dms4ojN2sDYOeNUn5E1AJ6CPTmrd11HO1DW78x9xfQTFBJzj5xBml7
+rbS3TNICegB0VHGwDPzWTNICmg06BEECdbMhKDLtQ0AzQW/WNGyCHxQF9EvQIQDqbBc4pcPf
+vw6MFejag8byxJfzvXEAzLtOtXal7V6KriMGMPiOH8RmTfuk6Og7IwnirJm8e5wED0+5v8wT
+4LjPWiF9PWgXCghbKbqoucoInEEC2pf9Sj09C7qhxiFhB3gA62wdsYSLNpFh05UK+3BTs6E5
+dQY/C/qYFAksOFftyq6u0trDQN27RQBoDPZHQb+hGRcsI1VlTUWnQzrDB02LkVmfYSpfq2he
+lQYrJQW9T/Ho3GOlS+wNrS3fpavoALfYBdgIyjqYFd2sizkUHYMFeCOeAKggfHbpN5h0Hkf9
+7lhm0SyL5xq3ZwHNwPPfYHjYA8ogYM7Z46lxf1IeXe4gSZNwFMd5KGznm1Plp1lBJWjNUsc3
+Hue6BKdAc5LfSvgPJdFKbH0V9ok3YgLopPy4TEs6FS82ZAY6FAYr89VnIff6Io2so5ooQ9F1
+IYBAw76HX/+GqnHpT5/AXCgaBzS8vSf/MeAAyCPAoIZ4SKkMdLyq39f2Fp5Vdq5MyzVLm/S2
+O1LbqIC+C3RY6QY9kRHQN4GGriJ+biugbwANMYzWSgJ6Mui6hVEe6AroiaDPja6S1groiaCv
+DiWgBfQiAq3T4A5gbpgxO5m9WYuiKZlTBxJasMxO5oU2BDSB033wwej7iEcPuFD3fy0CeoAi
+Zyj9O24upQU0h97gGBwM48MOZidTPHoQ9A3DJRjeALV1SAEtoBcRWHSaP3/AWpRbRMG6AAAA
+AElFTkSuQmCC</item>
+		<item item-id="8">iVBORw0KGgoAAAANSUhEUgAAADIAAAAWCAYAAACCAs+RAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFlSURBVFhH7VaJDcMgDGQuNuginodp
+vAzDuLaBlCam5KEqilopUhHE3PnOdhzd5OduwoP+RGZT8qVIDOQdEM6AULE4cs5TiBYgJND9
+6knHysYMRARLJtBKLuJbwhGgqpFZFEEGBcUXkYJ3tCxNt/AZCDaRGHySzQcyle3ZL1vjMwA7
+iN5dvYjgyNv+SgH4LuB9u0YwNLzZY7DeTxl983LxdYOlEKmB94jEAIp1RYSDyMVnUnmUY+P8
+MSLJVuKaDREAlvaspTbgjitCh2qEG0NOummtnpyDkt8Is+pan5LKpIt5MpEqc7IjWVEvP+iR
+PQ1YndHgeW1ddKHYSwFv5ogRU9pu6W/9TxQJsIAV8NWQGtYUrmvcJyLjkltgkjAPTl0wqTDF
+d4BmYRcRtRqrgtrqsof5/w+b20bCfURKPWTkotC4znbdVvsV0QGaBk89TcdAGBNlpyJjLvtm
+lD+Rb2b3TOzbKPIEX1wkdgrpvpcAAAAASUVORK5CYII=</item>
+		<item item-id="9">iVBORw0KGgoAAAANSUhEUgAAAGUAAAAlCAYAAABbJCejAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAK4SURBVGhD7ZnNsYMgEICty4KYFJES
+cqCWHLilh1wzntJBOuCxK8QFJSBB5b23zDjRqID77S90mltzEuiamxFPSDOUBpWAoTCUBiWw
+25QGLftOd509hMKRlSD/9VIP5j+2lCpQlBZO2PjbawnSXWgAoQ9uDrLXnYUErzCUGlCU0qPe
+j00J4V3TIWJQKCiGUgOK14dxU2J0Q2sshaFUB0E6HKQWMd8VxhDi8hjKhlAGKaLxxAX2pZjC
+ULKgBNkSDeQkKPtdfXZdDCVL8LUfMllYFJhLAubZF6bFnH3VhvFOu3ScyR+pU0CDEopXJN2w
+LsBOTIDuEzVGarBPqXDqXXq/3ZTYCqk2FAQCwvc6huLPFnw4brzOWCPc0mc9KI/Hw+snvC4d
+pOQ9JaXJ93eyFCUIpNHN1FaGNTLwoIAGuXa/31Gjitq3Wm6EBEL55L5er9e0juQtcYxrSc/n
+Mzr10H2F10tVd5EcCl/aBsp7MoVppZwW62Iae7lcNCgOwIFzaLlKtASF1gl/HEqBqijjtuwa
+hWcpgfU5SwAwUSgRiz0Cynt1eMGq6T1ULi/qR9wXaGNZW28p3lK2/YCwAqZzuV6vHpScODjL
+vlqPKbfbDb8Zfp07cJpYBqb8rZyUGOYIYKCdTic8Um2eEgfZl93XSPWz1f2ZpcBHAQQ4zucz
+Hg6UCb1k3yC+Z+By/m8zmFwozpWBlSTjClhFsNGEwq1Qp9SCFHVf8wH8VHF0M8fm87WE0Fo/
++VBQk4h1hNetfdkvnk8+FDR7hrIH6xXVoY0nLlAApIMD4h4COmKMFVBoMOR4siWsdVC2nMl/
+6Nt6F2UXRaH+cgukvPN4iAJM5QQCsCn4dD5lsmwpewKi2wKxczMfhsJQ9pRAg2OxpbQGZVqc
+FYqeQ3jxd0PZfbXGjmNKg0QYCkNpUwINzuoHsxjTcZD7bkQAAAAASUVORK5CYII=</item>
+		<item item-id="10">iVBORw0KGgoAAAANSUhEUgAAAIcAAAAvCAYAAADJqNmJAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAR+SURBVHhe7ZzZccQgDECpyx2kEdfj
+atzMFuNwIw5xG3+gncnMJjaX9BBCiLCHPiQBRAKMJEMSwCRAcBAbqAQIDoKD4FAS+D3XwR7G
+1M95h3K5nzP59+e5T1eOxQWXIraqLxtaDgVIj36FUo7rtxQErLEVfSE4GlS9QiG13VnRF4ID
+auN3PQc7Hsw4rFAIwVErgVfew5YV5W8wgsNKnSwHZjmkFfF9E2c5So7tZKpf64uZEHxSJJww
+gqN7Wel3bGeg4y9xPX0RZfQSiiynBIfQ1H2q3UuTz9GjkBlYqDqG4SiMVbSxGRz+cmDiHYyd
+zw1jIMfFf/M/cWwhAweHjfE67uuQ8RSx/f2B76ZmrE4Vg1EmP7V1buqLDO+oJdL0Bf4uZYDs
+6zeDY97MNQE1LJAWKkIqWSpJgKgVZiCEf+dPT+kUc/iuKEqHDCBnxcDyYesuW8kNLccKOIzg
+AQQQCPPdmQ8dsdXv25mOb6njUWTgAFbDiwzTsjIThrCukkJKcOidgjQ94juA4+YWhkdx66Ox
+lX1pcL7Jcgyxk1CI59jm4ZA+iF2TABxiRivv2O0miv3M9EX7Uha0Sueb4CgKHXuhzrE9b/ee
+0LdxSiUUCXPPDr5rEgeD3nNgUZLdyfVFF4BtWUuVO4BU5VCHVHrEPadTuj+j5bv1RgWnSQCB
+45YmTW3xej6j5XvapDKzJZCE43fxPbp0kvqOtkfLzx4k1dcngQQcbn8tl4ZEQCgKqnht58q7
+WD5cj1Ubeu3MtDewyvVJZ/NSMRzcebGxl+ReGAmqGEGWyos6LQCBR863cPlcGsz5GvOPNmcA
+HX4EhxeahSFXoHwTik2l2xXL83rEO8oKwL1+S0SwTZ0uTA5S/fTY6FlaJondCnckg6krt1/Q
+1Huh3lBJFeUlE+bs4eSWQoeLL334ldU7WY62aTH2tmc5flxBsVkPHVOloCiowvtRV150WCtZ
+OxGobzM2Nio9KAENB5yRcPsazFTvoEibIxvNM+aponwIErdGZ87ZSCS7DI6bildIgE5lK4S0
+6ysEx66arxj3JnCAXEm4S0nFVCqE1vuKv5PrjT43tJ7dPJTr2QQO5wS7QJrvFJdFNecN/zR2
+Tp3pWsyE6IdwYzikVwwCcm8qytW9Dg49vu7zsa1ySOOchy9Ojr+Cw6YLNCyl21kOLyL6wWHN
+V3DwbOfC0URsObeDA/KgHMT+NTkfzI0vRUnPx8sAm7yUhfEgfTYmUg57cnO2hsOcLq80IK/C
+EbKm4TjP4Aikksmt4VCWoyXLu1KqideMfyPgqE8c7m9PlgRb2Z5L4JvAgcQ5YDLTyxeRkg7h
+q22Cow9hGkVbMsbz9/zZf14D3knk1GwCR2kGOnjc5SN9uPjaRaQv2tRyqMypITgMNyEEr19E
+CuIQWPumf3bmj1x+cpOkJqeG4GiCY+ZFpFo4JrcJYZP3efGcGoKjAY65F5Hq4JjepjUe5Zwa
+gkO59fa/DK65iPRVm77v5SVnJXJqCI6Sr7rxc4JjY+WXhk5wlCS08XOCY2Pll4b+D+mSUwex
+d8+ZAAAAAElFTkSuQmCC</item>
+		<item item-id="11">iVBORw0KGgoAAAANSUhEUgAAAGgAAAAZCAYAAADdYmvFAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJxSURBVGhD7VntkcQgCE1dKch6rMZm
+UowHiJEYjOZjb/xBZm5m4woCjwe4t0R7po7AMrV1Zlw0gCZPAgPIAJo8ApOat/k1rn6zEjcn
+PiG6ZTGA5gQnxuBc9MagSeHZfPQhRitxU+KzRe983MA2A2hGgAKwB9ExgGZEB9izLnGB4eDw
+N6OpZtNAiQsOkHTQrR4+b+UfHnsQwzp+7UMaZ1PGuli81ddJH+1d91L0hZ2ajk4PCkA3NEYa
+fceUt/J3ztL37sG8SLLNwzjLNV9qUddhunK8uQ/8e/uzBvWnns17yKaURU9I9Fb+K/euA1lY
+gjf28rTW5RZHl8j/eBSAoFnhIA4Plak1jX1V7Ygrl4azoVfyxXkXRFOkM/hdO+9hJIYyHZiB
+vpz8aK2jnRyfplnBlUaf/cE1+By4TOJ5meVXYJ8B4osSHU5G1vUWA5nXMODV9z151LmDIHVh
+RpQxszjfmG4wQTr0HgIopSL4oZXzen2AXRSzrCtXoUpOgn/Yf4b8BBCxphr1DgizcrlHxqkr
+z8xMMmw4vQxk5k0mjQOUfl7RRiJtPWU+7+d45Bjk5n4yVQLR+qz4VwEEzb2qrWSMLDuXiA/I
+p9rJdMcmzSyEhq0T4j8YhGdoALXWW4xL47HK7C8A0qeaelhIAdtZBcEu2aNNRdqwwUFnwWav
+u8mYc6vsjdksAT6ofeBivVle67aQp793AMkslZlUZW9mkixzuTztt+ABeWpvAkwxwr7EpIjL
+Rl0yiAYCetW+z+zOJV5QutyB+r3voJtKYYmjHI5Qfe86YP9R/SwjfqPIAPpNXD/TagB9Fsrf
+KDKAfhPXz7T+AR7IHtrFBEY/AAAAAElFTkSuQmCC</item>
+		<item item-id="12">iVBORw0KGgoAAAANSUhEUgAAAEgAAAAeCAYAAACPOlitAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVGhD7ZjhtYMgDIWdi4GYh2lY
+hmFoAkRRCKLQ0h/xnZ562orJx81NfJuXo0lgEz5tAgLoRiECSAA9MRHnjdr8tuFLewuXioIy
+fs5ob1z8wGqApIwAYvXljFegIlEQS8h6LYAa/gQK0lBvoiCGkTXGox0JoAogZ5TX2MIEUEkH
+4ShqZdDoWQWFNkcYn4wSU36bzyNqb73c0hjrjFBDzmEGopfiAFkYmODLNCxNyfnBIrV5JI0n
+tS2HdjwHUC3EqoIcGJSFP/3FG3fzSvNIsoTiMjRTM0lBnYBA3iaGQ9Mku3utLENiE3YW14GJ
+thqD1aG0ihKDz/cyoWvxMzi34DH4HfoM+g2dc6mUCoKAEh8PK0CS9x7QVkPuJ5ca7zEOSOww
+zfxO543clzopjqogvu8w0uaFdW8UWgAqjSrSXnNAYqx6YCOz5yYCdO5CWdQ5CO68kuQFEJjz
+BUaQIRdkF7X3CrI6PlHXDm4jQ7w1Zc4AlHePI6g1Zp0Pa1gGOPZ3tfmrLdC1Y4DK/4PEYC67
+T0pKNdw0uAGTrs0jgQ+zZtOkw6hy5KFtfo5LRqPmZr4Xjxp4AzJuVNeoiXfV6bIfPQeUqYda
+aU8zWpbh4I1fAuLNczCev7v8OaBUz3vrT8Pa32U2KaAXgA6zbJnbpPiWL/MO0PKwfxeAALph
+LYAE0Fg5fgBvlgdrvfQ9GgAAAABJRU5ErkJggg==</item>
+		<item item-id="13">iVBORw0KGgoAAAANSUhEUgAAAFEAAAAeCAYAAABUgfKPAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJHSURBVGhD7ZmBsYMgDIady0neBMzD
+NCzjMLwEggREW0mer72Ld72zVUj4+EkCXaJdYgKLuAfrIBpEBREYRIOoQOB2F1v06xKXBT8u
+BmhvSrwJcfMu+i03Cg5Art4g3mTYvr75uIIaTYkiiiE6gygiGCMo0cHaNiUKOAbvI4ZHgzgJ
+cfNrdJiaDeIcQQS4lhQNRc6pElP6LqjnbKm2Qsev/cEg39ZvUISw3/Iz6ZASl90O3oNf45EG
+KCjhIRWTqjQmOksA0fELArx+202EkIrhcgWXi2Ptawhxg4CJ5nFmpTOn5fC1Eqvi6jLrLcNO
+w+VEoH0NIIIxn+erVORiw6kolU3I6+UMDpOdIUgqR5gs67KEXUcaY4DCGe4DKR/7KavgfHJG
+2RmMEUNyat23OfIZ5PvOLra8kPxbEPPUpwK4X7bNcqedBkmFVlynZj4hzftHCgclHgPnwjKR
+HONsD+9DREH1ENul3GZX5hGHdXY/GEAHERLKnrrz28n5IvdZAnu7J5SINnqIoDKm9NMJ0YA4
+zHAfkmDeViLEtUP8gt+aaJFgsTBV4qUM4vGMjHTIzs7w2MfFH6qRXGBtklLp+0i10sSCAb/U
+ZoUG73P0nK2aYWnD26QYWsfDx4bmXpVY97d96PwOCg2zGQ2QlMSpXBwzHu/gPkQqfbIgKKOl
+L7U0enwU/2xwCmKtp/CUF0GCGuHE91MK86eZzkEs8YOoqRXlT49eyd4kRAy29b+Gcjip5NPX
+dTMN8etG+ocOG0QFuAbRICoQUOjiFzgGHuDo4IiPAAAAAElFTkSuQmCC</item>
+		<item item-id="14">iVBORw0KGgoAAAANSUhEUgAAAHkAAAAvCAYAAADHLWWjAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASgSURBVHhe7VzttaQgDLWB7ePVYBfb
+hH28DqzGX9vJFOMSIBgwQETGGYV3zp43+0bl45LkchMc1v7z+BkYHj9CboDLtA7DtC6PGfyy
+TsOwTpEBNQfyMg3rEJuNm4MOYxvn124UTYH8msfoar85vq77MMYQ6HZAfs3rGLXg1zqPysKV
+y4N/+8vi7lB7Bnvft3iIZRpXatCNgAwg5mKwAbrEk8fc5Me8AyzocV7RcbcBshr0xMQqH4QH
+gawGRq25CZBf8+S5L97CEiCDZQy+C6TP+DpLhs6pHQTG5gZAlrhqmJUYyCYeD3cDWW0QJ+uy
+GwBZDVYUaIWWrK3aj92bJecI3JVRelvczwdZFI9TlgxGfsRdl8f22ksA4/LzQSaxKT2JDDjq
+Xu0EbgoycpEmQM57a9/Nun2vlj7Jd2Rbggtmv09OWDLIqeoZixIsoA0gRiBe4OfcM80e3nAE
+TtkKFzGKPx3k2j4yS+AsQDa2a7D0Z7uPp3tc+ncgUpr8qUU0y1T3DnJ1cPGBOQJHwKTAhgkT
+nUQBVk9EnEzY6Jb8NlB3UxtXzkKLZUG2WzYdY+AzAXkBJUvmqjWVtFr9893178/683sZwvx+
+2yNwaUvWMdqRCAKy097BU8SFGTrSf3//6LE/H2Sc4EtwlhG4admuAzyRfGlwbazeyJ9y2Up3
+nyCB4n2f0+JDS6YPplSU/p1hlpfMm6gRkiUK49alIIs6e9lFrLvGFeVvOeRs7rLeRxtiJMgO
+su+uX7Paw+1KY+4EMiNcdJAZkHUCA+IA5iMDkIkLT27IGY33kKW7LQTtC4JoEvWufeqiu7t2
+0xxx18qS9SVUVaEgU2aHm/McdDEykqi12okAmBDg2g9cdAdZCvJmMZoJosLCML+8ZJhbBPvv
+uTolfVWs/ROW7LFYLOO52e/YDGcs2dxmiBgUhlkZzbMwKXjHLdnfK5J2Yu2fAFk6ijteFwE5
+rKCwADlzNf93sfBdpCZ0uS5dGGm/g8yuwR3IWzYlVFOCpHtsTx02U5N47fRbWyFp8oBbpSWK
+BlTzfddCvIFptyNrdpC7rHkDgyzuYrdkN3W4BSNF8uDuPyjj1jrK0w7IoixUmAMOCWexMRXc
+uOgsU40DeT0L5U0/k+inFRoFUJXeoqVlK0ad1SDasWQR8dqDXMtlHgN7E558afnYU/DqDjJj
+yZ76ddaMSnBR3sOVbx0s9eGa6yBn3LXRDfKJ+RIsUZ4N15FX+WmlVUlV5iFZs6jD336TqO46
+EpMTp/frD1sRruBQnpZ3T7D8duqunSSagiUSkxPnn2qDzB/KS78mIteHdk5QAFNNxtfIPpla
+8VuL4mkCh4aHILGDFi3N52u51zzv+YV8ZLC5lc9/vy2CrRCeFsjXL4qP9/NIPr+pU42QMpWc
+T04sAVG9tL2/QlF8tCdH8vltnU+GRJXkTQNnQa5XFJ8GWcb4m3vTgElHyiaHnWCBJdcsik+7
+a0k+3+chDcRk4kaLBA5aCH9NUXySOwjy+Y2+/cdMWwvv8aLvCsHF0o4lO4Mue41TGTO/+C4g
+fYy3ag5kmPa3SpYX42qao6Rv34EmQf4IDh9s9D8eehw6JfDzBQAAAABJRU5ErkJggg==</item>
+		<item item-id="15">iVBORw0KGgoAAAANSUhEUgAAADUAAAARCAYAAAB92+RQAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEiSURBVEhL7ZYNDsIwCIV7rh6I83Aa
+LtPDIOvfKK5LY1sTzUyMm6nAx+MxHf/hy/0hEz9Qv6JqUioge+fYHW+gs3b9vUcOW6mIodSQ
+P9tSfFvbTS3N+AWUH0pAHUyIGVGB7gIjYp2FAOp9qatp+DgUMhEI2Bnwa1BNkdJIaCcjgrXd
+7mIZpQRKjhLIGNZxM0qpkfS4aSAlB5jY01CCFec7Fa2h5Np7TvmOM+XaNu04lz1qfDLS7YCQ
+c2h7TyqllweQgtKL48LMa+z2Pnppl62AKoFEDV8WRYTSfuthzCglE3DhnQkoK3suriZJ99VL
+slQGvTsuYifmR1BxOcSRsj4xnes908bLvj2pV3k9GDfyxXO0E+n5m7RIjO1hHqW2t3hRghed
+KyqlfIlCSAAAAABJRU5ErkJggg==</item>
+		<item item-id="16">iVBORw0KGgoAAAANSUhEUgAAAFsAAAAyCAYAAAAzzacLAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMkSURBVHhe7Zpd0qsgDIZdlwtyuohe
+nAX0gtV41z30tuMmugMOAUFEEYJ8KJrOdDq2/MTHlySENpxexQg0xWaiiTjBLigCgk2wQwQG
+ztqGNw28O96Hmp/k9yqVPbCOs0ER7DsBvGV8vDwJ1nUzqoQ9u5WB8bYSddcPWziRjmAXWtFC
+2Z32KYWmTJ2memX3rA5/DQ+oatgDa3lXSypSM2wA3Rr30XNWgSspr2yZPYw5si1L+/tAKifT
+PT2G/GxNKpjqT7H9pA3IZVUe9nhXoEwANrdXbFZYDX5BrKQW7MdtqA6EzXjfd47B+WF/v9+Z
+aN1rrKKh/SCCci9TTlcs26MdC3uxA3RgW65l8s84PLB69Ovz+cjVtO812Yjdve6dOdlupQ65
+4ZYKUTBt2FD/0L4Y2qT55eywhQCMp5NiiLfrBLDlupRBs+st2HbAHINhMB6ZcSYNJMNeGcvU
+YmbBWQslrLtzwJa8IeBAOjcGyEw1Dx/s3+8XprNosUwxpd2RhbADYU+VO3VPY9nUyFddG18t
+gmlQ2Sv4APb7/Za/wKeG/3q90LDtauPUOT5QHgJ7ypNdfycM9+XeKaQFEYD7eDw4wIX38/mU
+b/0AdMxQebvP//rq5/b3VqnXE9gPgY2W1I4O29mHgqWfoxIBLndemuYP7PeG7WYTyOxiVQMb
+gf3esOWmynId2WCvr47Lw972QCq4mRoHwI/MLPzj+gP7zWFPOX7Ww2NPsY1g7wi+2K4EG0ts
+R3uCvQMetuscdkyVzVMzwE58x/YWbGyVzdk92cWZxN3e1R/ABDulypZAZ36c5R5vXfcaUDmw
+MVtVUjZWa44b2V9lwxpwp/beAOk9OaYAmawPSv2S0eE7GtjNvzn30DV+KuohCQNYG27o+vzY
+5sF7mYnGn67kvFcDW0OP+cxpwN+NNT8Y+Lt54kduMIp2XUv8NEe0PDlsW9UaT12A7Ye6ATvH
+IUGCfi6cjfhgjwcGiD/XJHBd7XJD2IIDKTuXfvQ45EZyE90YbwW2/qMPKTvnc/AVyaDQZv22
++3AXZ/OFfTYORInWBLsE5XEOgk2wCxIoONV/05SvRQwEAUkAAAAASUVORK5CYII=</item>
+		<item item-id="17">iVBORw0KGgoAAAANSUhEUgAAAEgAAAARCAYAAAB+bOp4AAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGdSURBVFhH7ZZrtgMREISty4Ksx2ps
+Zhbj6qYphjFyJjnJufInr0b7VNVQfr8uCajN55rABjRRyAb0FYAO67VSXint7dHv6LA6/E81
+ymsowt+Nk7GHtzrWXs35RHx8QEHOGwHDoIzP+8w7aGsSSKrX1jNTGHtYk0E7EyBJzRNEmjne
+D8gZr/LRx5MvSkjdVOAKLFIPqolg4HcePYT+DK0aULZCp5EX12OLAJHuJoNG2DJUF4AKhFtj
+UWVtj3Q4QV0u2ZfmFctm0JMaAERNSkaA5KtF0fuSAen9JIs48JYKuJLWTJBkTWoeLNmFC0Br
+Pmk+ybR0+Awmq25eUwCBeiQsB3te0tJdQDFX0gFApnDGpPA+B3LYIOZP2kNxNGQeWnHhcwOo
+F6DIY11BZJlbGZQ3Osipap7YkzOTfhdA8IOjU99YDLInNPSEgqJ1Ok+lijs+3aLsq7Ubq4l1
+USmmd394FpAQvM6UJX9Jce8e1Nihew9iMOfHeG270V2oqN04/Bxzkec1Nt+nhjUvbfgfDXr/
+PejHYW5AkwPcgCaA/gDFlkBvNwnRwwAAAABJRU5ErkJggg==</item>
+		<item item-id="18">iVBORw0KGgoAAAANSUhEUgAAAHUAAAAnCAYAAAAxQgdAAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMvSURBVHhe7ZuLkYQgDIaty4Kox2po
+xmI4whIICMI5PATZmZ3xXEThI38eeJtYn+lmYJtuRGtAYkGdcBEsqAvqeDNwHrvYGPcenAu2
+bWJTXyb8X8cbpfvEU1uqAgrgPKjnwcRxjo4u/vxTQ4VhXy3VWuk+KdkPQtUr/DzELq14RrDf
+harYgtUunzqcIwoHSnYYnC2ok0E9xbGXg/qLpp99S07st+WXs6I+FYC+4fOOp6g1ExKasRxM
+a0LnCt3//VBVdLhPnc8VYqm6sUBB0okE68XEGTm3H6JmmhyxVMzlFtRc8L6VAkQ/XUoFbbn3
+SrWLy++y1NTcOb/nQm2RF3tQPeloJb+6EHAp0f5rWvs2/jdU6tsDpUwzGtoOZRvOyWOuy6Cw
+ULAkCscOVKX7TkDRWn79RXX1TX3R3dRbvcjX8aEkzUFLPTnXfvWmAKIWO6ZcP5fI5HW4GaH6
+opUx3Z5AhcYE4kDy+zQ3vLvO4PNUBK+heENRb8yn+vIL7YxCefcC6wvKNYUdOLZQfQnsAnUM
+S/UhPoYKMnrjc6KBVTZUKQYqFEfd7gL1reJ6fS4KMheq495U3dkq43kGkhyfgfybGcnVsnxr
+qb99KrVzoSRml6aPm8gJx4xDdvyIWoHW8tAXxOWEyNAAbONQ8/LUg+atuYGS8q90Tumx3maE
+vtLzl3bM6s0BWBCOlVMHDytSPsAx1zsGCPYtlSRkmQEVLThu7g4qE4KTQnlnKf9vIJVe6L8W
+oaAp99qa7QpC1RatZNcL0zlYcb8N6ZqWVLPvp+CLQXUjNQIVrNT419Z5r7WopxOUum5QqBmO
+GaDRIMsEW0wwiKid38vtX6YmHCXSbUfeJBy5hHUz+DxLzZm9l7ZxLQkWqFaLzn6+5nR9C+rE
+IJ0KV80V84a+jaX67kFLr3k3WOXmdfc5W83Hxy3VjdJtkb3V9Ne5zzRQswrtAfnFKliLfc46
+CK+9TgM1FOle0o2oT8WIuG1kXgvyVFB9sGmoXJYubSGdsz55dGm4H4JK/9MNNw/cc3fbYKUn
+vmZ/00Gl1vrGak9NmNj3tFC/ClQt6hYrp8c9FtQes175nl+G+geb5DHSLFe+YAAAAABJRU5E
+rkJggg==</item>
+		<item item-id="19">iVBORw0KGgoAAAANSUhEUgAAAH8AAAAeCAYAAAAFFcHsAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVGhD7VkLroQgDORcHIjzeBov
+42FYys9SYEVBg7EmL3nPtwtlpp1OVWi+PouA+OzJ+eCayf9wEjD5TP6HEXjJ0bdFarlsQ6Pl
+yh8K512LrVoJweTfBe/M665K6YUrf2aKboptW/Syas2yfxO+8y676UUtGjo9kz8vSyciM4RK
+oYXp4dmPMiWOr9VUvfd4TP4JiN//0XKSjHT87PZfkiXPVr4xGlLIKDuzYQRgBNn8Xw17BaWq
+Wrt//aQ2JirdFkeQ+D4sHyTfzZW9AV+H8eibEJ8H82+S+nNQQnTt/tG+9f/HZEz2onEqs/M8
+V132Z658G1sAEgGc4OoqO1eF2v1+UrLKXxVSArdvlof9215egZBPTUafVF2O6vCLPk5A0gBc
+lH2fIEp5Vx1Qr91PbbZRFlKl8D3pxq7aRcmnf68mlpGGDc4uTEyrb4GwdlCgln0S8iG42LNg
+4c4+dcih/cCJ0ScjCMVLNnPAGwJBZ33fBf5r9/NYQVF8AjQQb09Cej7t02PJD63ZJ5Q/oyU9
+UcY6C4h8Ip8zy74F2jzy3HziFCqyBvw5QjzABxUf4H2W/JDUKEFxslLlKuTATj6qDleQT7n9
+C5WfVGK5l9Yk95wU95FvZTk2+Rt6Pq7w2u9/5BdVPqmix8hvaw6pl6OGr2Ckkvhr00HNLMJu
+/bLv1kBTSaOCNCMyjvy9N9r5WZr3x3bcg77ZZiysZwiPLW3G41l67GvJ4pxP1cv6FhdTOoFV
+7kfUEfG7pv83fGivZNYfNOfnCYGxTZ9ZlMfOfIWGJ3yNxgJLcXEUMwHC6ym+pkGggfyTxiJW
+ABqVZm4h01DxfCADycdPzYhsmrdTsvjA5fkD8447AsPIT100MUux/8/60OibKdFAfqOxiMYG
+mT6ptIJ31+7pym4gv4n1dKduIH+6mDmgQQgw+YOAfOMyTP4bWRsUM5M/CMg3LvMDSyN3zUFa
+bTAAAAAASUVORK5CYII=</item>
+		<item item-id="20">iVBORw0KGgoAAAANSUhEUgAAAHEAAAAeCAYAAAAb3PFfAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALVSURBVGhD7ZqLccMgDIY9lwdiHqZh
+GQ9DJQRG4hGTml6Do9z1LueCDPqQ9It28/pZ3gPb8jvQDXiF+IBDoBAV4gM8sNwWDm/3zW8b
+/hjvYP0aiYtBPKzx9qBFOwMgd6sQF2Mol3tYv0M0aiQuTdF5oxCXJug9RKKB3KqRuDBHZ63H
+8qgQF4V42N0blKYKcU2CCHBPEhWaDBmJDpRO6D92kLHQjxgK14//BJWW1t1ZbW/MxVyU8enE
+J8voxK1+2FkDig/Z193xZ2grTnu05wwxbAbh4StiQwk9yOdDRCfFdUfJHbMM81VvzMXcCJjz
+CgDRiQJi3w7v6+7AezW3gEg3APRZJBIxe5wOpcNXBgl0xe0xF3NRONiRSOzayVGY0998lCyd
+puucFI3zX9a12Djxo28vUxumm9JhvTEv5wIYPAwj6fRyDXF/Yl1n6aJbl5Dx8Bl8dzHacXyK
+/FeHoFCn9b3cqDPnjOPvL3J/FV4xX4giT05vQeTP0hgpEPhcWIelnDQKsWVf+oQa82BVpH2K
+VuOKqOXgu2WC3tBpMZJBnl7nYJptpQ8iv6k3pjvXQRpl95NXwmZkDXQgyJ/l+FzB6BqtAj0M
+MXb/bOvt+jKbgrD3fiR26x23+2ZNrBWgjO5KnY7U5SAWM8RK3ZYRysG9AzGr03Busur7U3B3
+jRfKsKmoe2Ou546kU+ErdHhrDQD6TLmiE6D0itdnIs3+FqKBOpD/VsVU3mDBFSc45KAcWSnn
+Nwv0DWETjkCr1yttzuoTuSCRvUfdJ/bGUm5l/R5GKPcV/07pt25r8uEfuHYbLLj8BFaFO14e
+RLFwN/Z0vvTAAMRCTV2F+XnCmCgq04dSmOqBiRBjxIYUw+R0SB1YJ2rpP3UnX2xsGkSp2Iqe
+6KyP/3CR8AVwByAOFtxTOLAmHSS1wX/qQYjn7z+/91yN+wDE1bb0fetViA9grhAV4gM88IAt
+/ACfoLYl1Rn56gAAAABJRU5ErkJggg==</item>
+		<item item-id="21">iVBORw0KGgoAAAANSUhEUgAAAEYAAAAvCAYAAABe1bwWAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKQSURBVGhD7ZoBkoMgDEU5lwfiPJ6G
+y3gYlgDRBEFhFmyl6Uxn7WqxPn9+ElBZeWUJKOGSJyBgCsoQMDOBMVpZpeJbmyFu8FrFAJxl
+3YZAgUEFzEyhBNciiincUQFzC2az63KYcZsXG6sLJj6JxwQ4bVDgO4v1/r2tdlFxO96I3wWT
+gUHF+Uow5zrmRjEeQgg3n+LJZ18PZaT2SjBn27kCQ0LGgqeUw+f1imkCk6rDKcQLZMZQagej
+nVaS18+CMTpmqRBme/uA/58fDK9j9uZSEZXQcPJxROoXDK1EUNx8Hc0wMBiUO6Fe7bg2bVj/
+12XgAwyTVrwLi4CJLk1NShQTpYexykvjLrrEQWKst5XuXX9B9WBJgUeNLJPiqoe9O7BkmPkq
+9G60EfsLlS+6NoVDO1GXCgtuPuJH4phHxiFTm9gdd/zLZ/CczDWbKqRl9nUn2g7jTYo5FTz1
+fUU7mO//BkvXejXnSZ9cJ5qFiPK+MO/3mm/hTjIQ6DUIgHe2YUpgpHE/o7a6aYdUIfTz1b5n
+rmHIWf4PxrcRJHxumrMeV8Emqgap8/9gsCHDqg1APdBKbOuSnXnrAZ6n6+KIaSdKUi0CYAb9
+jL98AZhe96DvOAKmmCg/Hkp973Sv0UQxopg6LflU7TIgKEYeAyHMfAhBJ01LglgimLgPgOFx
+FF5poQ7G0yZkXzy+ro6pu5kfOuooJ+gq47EdywcoKVh5gWUFNsuuDHG94j7F8aGr6XtaX0cR
+ALltPOM+4Z+uIkyyqM/IVoGJytqXTwgYA2rij65NEEoOUQUYnt4BElFYWLM9HgtxnyYAc7Qo
+2tBt4BWNGi48s4atFjdFCw8dsf0B2ARg+trVXOY7gI0opgBVwBTA/AHh5WNG0EKA/wAAAABJ
+RU5ErkJggg==</item>
+		<item item-id="22">iVBORw0KGgoAAAANSUhEUgAAAGwAAAAeCAYAAADJjPsHAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALySURBVGhD7VmLjcMwCM1cGcjzZBov
+k2F8YIyNP7ROm1waiZNOV6X+wHvwgNwS7OdRCCyPstaMDUbYw4LACDPCHobAT5u7h21dwrLg
+rwsebLUM+2HC9s2FbScDvQPS1s0I+2G+atP2LayQZZZhj2HMB2eEPYatECDDHOijZdhDOPPb
+FrCcGWEPIGzf1uCwRTTCfp8tJGvlVhEa+zrDPHQhsedfoZ2EGcBRGt76E7sjtkmxRFvzcm+Z
+cTh6EZziP9+FxZ5nIfrbr18EqOehFVv56m6wLx8fnUOi8ElyBvr+ewlDsJJNqa1NyiBQ0da8
+2ptIYOSjy1TU6SMAw995HwfWTJ+jARYmo8Y2xu48wkYnNYSxMYm0uzMMMz6DSkEkMSbclDXq
+XjqnyMwAFtg7/l6oThVAgrxr+ZKSyBLxP5Ey41cV6ZGbHmhtjbo3Ae1YbroIABy2Po9T6uUs
+zCqE+1WCk5e51NDbipjH+Aw++yTDGCAsya+CqekS+3dXM8DOrZFnN9rcgUYn1gVXJ0w6yKRq
+e4lIUBLkJNW4cn2pVyPQ5KsisnAgrS0YXSaiSjT3JDvinar008FKW88HSokUxRccxkKs4DzH
+38SqqwgbESzNoUiXvo9LBBHY1PsmCFof8j2SGO3zAKOqhnHRTfEtagYaJYv/J7J5PMPU+iQd
+OVjDZmSWMqclDJ41TcqamzKlviaVKHVYGH4GYaVL5HT/lqSJNHq5pOnEhl2rtkZ5XnXDSrNQ
+BUGpQ5WiDKVu4Ex1H8lwTIwzCHNQbMv/X5Lk5Vkm1R20ujWCtfzdvPQJf6NZqq09R+cw0QSM
+ZqpRRvjczhcnytz2vuss8xRmrpwB63kwn6nUm7lXU11UykG2lgMa9lo5+YQp2zNC4APCuLtS
+5LLLPgP+TAS+JyzKi2hCjLAz+enO+p6wdhZJA+G9r7QuxezWwycIq19+Oi/ac+7aqsbE6teV
+jE4QduX1dvZRBIywo4jdvN4Iu5mAo9cbYUcRu3n9H+UJdmbkFkLGAAAAAElFTkSuQmCC</item>
+		<item item-id="23">iVBORw0KGgoAAAANSUhEUgAAADoAAAAvCAYAAACyoNkAAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI+SURBVGhD7ZmN0YMgDIadi4GYh2lY
+xmH4SEwgWuRrr1Gi1bteOdtSHt78Gab0I9f0I5zpAb2b0nYUjT5N05RfLoV5TsGHNCvutg3Q
+OSSHgECWIV0GdrcF9SkWBe+qKKtYVFW0WZrKhuniYshk0U+lujrQhkAZKCb/Asv38iZ4j5/7
+audv7YQN0ByM/BKJ6FrUXWBgTIFqFbTe4itfMgNaoy6sDRT8Hk5uhRlQH+KSVtBsSU1UsN6b
+QOIXVYVZd4KZDdCeFa7AGGqdc9lfo98PZBcDBZcVxcVW3Y4PXxsUy0ZWd7MJGyu5NigGLUg5
+lGsAfKd0NA4qAw0EKFFUMNAqYO0XGsZBP8uVvW8/oHp7aWOmqmgJzbKu3CkoyS8+rTdHIhOo
+dHpy6G3obq5SPnGICkZGwpF04r8binJdLZ/6dVfLZd5Z77D6L0EfRXVNQGE2UnT7dN9IzPLP
+rhuMFLbM+BRPwXCKQAc3rW10GE5oWhsCPbZpbQP0hKa1EVBYxrFNa0OgvJRW01o3HI5LL92m
+tS7kutbVn7s/Y7M/KxpdyusZrGijaQ2A1OSKwWEz2+XjilmMi8FjH5de+HBcfd7HxR3gt2MV
+3VWsPhvjIqmurmNKSXB/1SDjVMXHGRk6d//5GqdozzQRTgC1xlVWUlXk5EYj+8KgsqcLYwEa
+Qe1qtkZNF1ztf0XRZ0vTSoDCb4u/1uBmUFEZUOQY+JfgVE/VNn0qlw+J4USunLrVQyeDoMp5
+haZ7QI/Z13Gz/oyifyaM/3whzI+aAAAAAElFTkSuQmCC</item>
+		<item item-id="24">iVBORw0KGgoAAAANSUhEUgAAADsAAAARCAYAAABjEtTjAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEZSURBVFhH7ZaNDYQgDIU7FwMxT6dh
+GYbplb+jIqAkyumpiTFWrP36+rgDetABD2KlF/Zf1Z6qrEVFoE2nl4Y0AIE/NeWVrXhIZTRQ
+N2384jRYD+ogOlVZ1IR23YtW3K+0SIrzXgo21NVTNqunFsSteFQVkXBYWd8hxZ0VI7OnXQMG
+3x7jrNQSuBE32is6OMYVT3Ai8PAljSVUyVfFdaM5u2CDC9m70rOpBhnnOjC4ehA2dU7AfZUe
+kG5j6X5YB1CDFXHD4xuFOBF2hrLuGzXYHHeAYdfO52r0i+bn3bhU8pfKsoWqhTfig8pKtVxH
+xb1Cvjvg8HtAVCF5W/5s1J4HQ67fK8oZhD0A5gYppv2puEIvXtgrqHBGDR9wCZIxne43KQAA
+AABJRU5ErkJggg==</item>
+		<item item-id="25">iVBORw0KGgoAAAANSUhEUgAAACEAAAARCAYAAABTnsXCAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADbSURBVEhL7VTRDYUgDOxcDNQ53gid
+hmUYpq9tQMpTAw+N+iEJMdXKXe9agB+w4AEc+CVRXLhBicQUgAF0B6bE19uRCA1YV0QhEuh6
+Es0gJOIA6EjYC5UnMppUsjFuD4/lAu99Hp44Pacq4YCFmUFHYZg92z/U+1t87hTgDxOMIN7U
+xlyUyFm/8XB5o4lSuKig7XGQxLwSEbPix0mMVt3mJQq1n0TxrISvSBm6OEu27uq5xrSxLI2f
+74obLqu1egsJ+LR8evGcEdt/GbICetBefCYBwy8k/nmeTeILcjf+nVZn32IAAAAASUVORK5C
+YII=</item>
+		<item item-id="26">iVBORw0KGgoAAAANSUhEUgAAAGcAAAAeCAYAAAAxbADwAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKvSURBVGhD7ZkLjsQgCIZ7Lg/keTyN
+l+lhXPBR0JYdbbsZkqXJJhOjlPLJD7pbskdtBDa1npljyeAo3gQGx+AojoAa1/YU3Ja2Df98
+iuCXZY4SOHvwKezFmegBkAsGRwmb3o09JAfZY5mjkk5M3uCoJJMSZI4HjbPMUcgnhpCw/Bgc
+ZXD24JLHVs3g6CKDYFxr2aCZ7jMnQoeQ+2wHbR303b6k19ee3LU0fwQvpDniWiy2/XkiW162
+Q21v2+lP4pTb58Ov8s0EJzuHULKn5UAEvfb34GAQqz+1tazZzmIgzZHX8vMEGVq3w4G+AecK
+7ACnnEzL8+XMwSw+vrpsllMQpDniWsoakg/41GU7NWugcAfY8X8Pp2XLkT1PkrTxLbJ0x3nU
+X4JTTs1dQLMSXc/5uLZKWLN3yw4Axe9Cv7rvO0oDUx4cAxWK6C/EA9+b31l/S5EeurXz/c4L
+iEgmO02tGiuQ64ujDIcDawBn1oLFfNBDpZDmy3YgTqFoTAenk9+SpT4O2co3hijXJepCK90M
+cpl7B9OslZkArwe1f3v0N+FEkDN2D9b21+gPVYhyHZNxciDTcOqplNwXdH42ut08npFDVyJp
+3p/UHO4U+lQDtlhzzp0Vk6qr75GArMChbi0nLHVLt4A8XTR0UJedozRnYi0A4WeKrjM83vXZ
+zlnWWsdbsgSvYcRsWYHjQUfpfwqt0NGub/rp2Dwau2i6q77eaQgy2quzx2hz5XzCi/Xo1Iod
+tu9+bQiylPH48d+1ocE6LARo8vqm7SAqhJRZfOxptth6HoFJOG0Xs5Q9dvYwZvF9LQLzcKBD
+cXAQ7A9vF2OvuWaG5uCgHmddRM1kVyrjmMXz1QhMwKlFDEGwoolZlAvZMfa9M9GrEVFkbAKO
+Im//mSsGRzFwg2NwFEdAsWs/XiJRa+2O4JwAAAAASUVORK5CYII=</item>
+		<item item-id="27">iVBORw0KGgoAAAANSUhEUgAAAHUAAAAvCAYAAADdEYUtAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPeSURBVHhe7ZuJca0wDEWpiw7Swa/A
+9VANzVCMv+RVgFkuNiEwykwmL0R40bFsSVY6q1+f00D3uRnphKxC/eAiUKgK9YMakFOaBtt3
+ne3424z5L/J5P9gJVcNofJtdb4dpsoO50AbQp1pqQVnT0DsIkqsllMMgQJ9VslsQDJNfoDZ6
+gntlYZztj+QUahHqYEdnXcZmjDVQF+2opQJLtJHoNBBUams00qoWUMWW3Hsz3PgK1pmstcEg
+k/WP1hSOC7XULUt1z73SPDQJlUHFLZVl4ucjsHyuSqu9AliAjG25XSWPQaHuQmWW3nkyo4Aq
+HadgKen8TfIlYBEICHbZ5uycjmNUqLsmErffKOQdp54sNpywTqknwZCsmW3PfjueO2GgxSpU
+UGFu4ZvgrSas3mvN5uh+T2cpbX+bkJYA3JZ+tF0fjFmhYlCdc5RiSvkuwdiKXffMzlnq6BfF
+bKuODhRbbTy7s1x+tnTC8nv+fBa/h1BJz1SMeWPpaLXSCSs9w7pVqJi+2kuvtue144N2qlBR
+jbWWH8npkuezi6QKz4B+FSqgrOaibKXuPBZxb+kZ2LFCBRXWTjw4OAw1xb0UNkUvOz07GTqJ
+gW1CdV5gVTDVbvraEqaBDajsWnPAja8SrHuVvkMDRag+o+JjJzXWO9R+b5sFqDlmmt9S3DuQ
+Jq3v5l2b9PCKRtZQSTHpLrgUQ71iWjLrkjM5q4qGV8wFH+QKak6TZWXs3xfinR6/8czWH9N4
+b/7Jul1AJQdpceHrbihuLr84hoxKqKUmja1vJ1x6Qx0mdE09LB8sdZn5j6NarPje2H/ppmF5
+O3CyqIpv6cnyx1DcxVt7LPRK27w8yw9KN2b6U0fJqQPPKLHi0nYsyzrYqMnJ2q2fzKUYDmCA
+kD9zXBxl+M7xuHTjYaP4k93jUJkdZZt8/BqUHvOXZ0ooZdXA7udwkXxwIfwntfrwoC5BJaph
+C+UKgXD/R9UCpxIVX4eKlLrcBP8a1HjbHihCSYpPQ71YWNYY7kWoizqeVXHV1ihlCYf8zO35
+qviOCp1T6Qc5ZiaVgZRLNxrro76591pq/dw/24KAmhbqL8f5ly31s1BqJyYt9TAaqO2s/H57
+qOlyd5FzLVbo3TOpR1sN3nq67H5gMO2hPjCJP9VlgGrMc+lVhdp6RYjtl6OC378MuZJRaq2E
+T7UnUqcc7qV/Nv6xP7XpVUBPaqmAsqpEq9KrWM8KFdNXlXRVehXoWaECyqoWrUmvAp0rVEBZ
+9aKi1pcag9KrQOcKFVBWC9FZIcLp9CrWs0LF9PUKaYX6CkzYIBUqpq9XSCvUV2DCBvkfZFfb
+TrU5GiwAAAAASUVORK5CYII=</item>
+		<item item-id="28">iVBORw0KGgoAAAANSUhEUgAAAHIAAAAeCAYAAADw60pcAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAK8SURBVGhD7ZqNlYMgDICdy0luAuZh
+GpZxGC6BIBH5q1f10FzfvWdb0CQf+YNOVv4eYYHpEVqIElZAPmQRCEgB+RALDKnGYvU82WnC
+f2UN6CAeOSDIRSurFy+4UQBz1gJyQI5bkRdtZ/BK8cjhSRqrBOTwFK0Fj1QQZ8UjB2dptLaY
+LgXkwCAXPVuFJauAHJciQpxD6QoNSNEjXVkbcI+rb5fkaJSqrq4yxJ5tXsv+cOP8XCxAtn1e
+lyCdgxyb9f5ergJIAw0nfEnNZuf9hxzmQKBRiosWoRBAKvUpmkGdkZ/L+7yrjJIFuUACNfDC
+VfUGp6x6pIEebTWC31HhNtnPjd4YQ9/5ODMgQVjt11zYNaBNhPOluekJNZDpd2gTDqg4l8Jx
+FSYukhAiYXfG2Rk/g2tD3o7zg+fX7rUHCQIQR9ejzJm8cJO9G4/l+49JDmmElRZIbsBukN4V
+XLMeQvFGgU2YDtEv8Wa+GJKwnhpjB3KfSLcr8BqI14b180CigxFIghLW1LbqZFblwErXGQgJ
+SChy1pLWj3ZKBre/huLBp5zjkS7UfZQjufgoU94j6yGZw89ct0Dmq61rveMgxT9Nq7cfSdWa
+LOpWoVTMa2naoq02n84Og9yfb5E/snMvPC5R9oeSszJsjlOO3re8tyeZcyXXa9abfbOU5gVH
+jHuub4yOWOgjc3Nzn5WWGR/r4EWbcvuiHK026fMtOjTsCgsfzJpkA4VStcTtSeZhDN4301g7
+5feN+Z9c8gGTPwdJbYlfrWRo9ya2LVW79ISOrEfSXYeqpK9bIYdAxl4HT6oph8CpdVfEE5Cn
+0D0GMsRyIvfRxoGA/E8gMfnG342Ew822hD3JHPJs+GERFFdq8yOjtMBqP/EtIw565FvMM46e
+AnIcVlVJvw9yPbtLz8zy53kPsePtanwf5O0qvVOAX9hliOm+T1PMAAAAAElFTkSuQmCC</item>
+		<item item-id="29">iVBORw0KGgoAAAANSUhEUgAAAF4AAAAvCAYAAABqrH0KAAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALMSURBVHhe7ZqBlYMgDIaZi0luAuZh
+GpdxGC6BoBFbhVKLQu69vrMV0X6E/Eka5eSvCQHV5K5yUyfgGxmBgBfw3yEwGeWUmb4z2YWz
+dGbxk7NaO6WMuzv6rsDP1gLwyRml3N2NviPws7M22Ll3N9q6+UJXUTt1P+Bn64i7c3CslXb2
+xuS7Ae+tHFwMf+mfk893c52AB1FNIM8WRPbG7qYL8LM1L9xKvvXV+utPrn84eBBUHd0LDyH5
+5yi0xv2RGzITO+d3BL0/2x2T8Ttowp0Ec6Eb87uKjj18ri3LcTAA7wJZqPVw8AW2hiAWuAib
+ie8EwnwoxCs8rxseaoAfjnHR4xicl8GOOQUuHBP8ccBTmBmMjsD4N2sYeriMC+Bo2bTDdp/T
+gqaRVfJ+KPAQ4JO7QE1A+AAJ9CEr2RLwBe5lN5T8OZEuSrQEfA14dMksAgKYJivWXwWZizOu
+XxRYZUAnotCDmJuN6KeC7qgeT2KRJiBPKDbVLUO7q5mPD6vC/d3r+Ljdw/Z050PwPX3R0+/y
+dtdjDP79us9b8Ku1c/8WwrClBsIedlMX8TErJQ1HiQldnxVVnJJ71oAd+NXP81Wm0GvmMS9P
+QuL5JMbNro0nmSYvdnW6KhkWT5b0MiHYVgOjyv+qKrgPBvYVyjuOQaL5Ph7Sag3iu3Uz+5/Y
+fHhVbKVi8dssDq08mHH47wtK0QUFWMtCgF8PQ5IfIbJj5Wf56NqnDRZ/oOhLwhAXwPtfXqfY
+V958ar746YMfnkVca9dPri8lMFaRrJTOheMFPBaJGzRBCXjINVo0QQ0PvlUT1ODg2zVBjQ2+
+YRPU0OBbNkENDL5tE9Sw4Fs3QQ0I/odNUAcJ2IDgC9LRqiao4/sI+JN1QAH+uAlKLL7AytOh
+NU1QAr4CfGxq/aQJSsDXgP+0CUp8fB31i64Wcb0I7Nm0Av6M0EXnBfxFYM+m/QcakI8xXJyz
+hgAAAABJRU5ErkJggg==</item>
+		<item item-id="30">iVBORw0KGgoAAAANSUhEUgAAAE0AAAARCAYAAACYRSE8AAAAAXNSR0IArs4c6QAAAARnQU1B
+AACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG+SURBVFhH7ZfRrcMgDEWZi4GYh2lY
+JsP42TEEA3YgSH1fVKqqpji2D9eX1MF5fSbgPkecADjQNkRwoG1DuyJ458AN7wBp46Y/DXlq
+9RCvt0wXRM89ha6JFOS1BKHru1/fZxFK4yQy4IphUthP8Sg3pwYzrBuetakZhNZ9hv78lFIj
+jBTmQnmF9t9IpvlSAPd0O24yx/N1b8gwxQixUZrMirEh4h3eXya0qjIpc97BpyAx1k2R1FyR
+vJ8XMYWVF1zRC2gANGYDnKzAgL/dNUi1YV30tR1PkR1jw/vM34sHaNXXpGeUsUCAsRgEwSxr
+rLFhyLpH1M0YvNQwFYImIWnQGCyOGJXZjGKt3YK2akcLSnu2GT1EgFQOD+q1b2xVRSvrVqGp
+YBOOZZ47HdraaKpKM08OTOqlVxhG3I+QDeO70nCupp5mjTCB6hXdjjZOxezYzM28HwQEhuXD
+n7fJFrV1hpv9gkeiVeSKT6woDd2oPT01v2zyi/Uigaq0Uv9CIQzNfE4jP8qKKPBug8/Hsozr
+DLfu6vwIX6izLtGe04bHiHoQaeLRoK08apQizj+CTzvGiw+0A22DwEbIUdoGtD85pLbrzsnP
+rgAAAABJRU5ErkJggg==</item>
+	</binaryContent>
+</worksheet>
