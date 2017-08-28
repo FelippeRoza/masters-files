@@ -1,12 +1,12 @@
 
-#if defined(__AVR_ATmega1280__) || defined(__AVR_ATmega2560__)
+#if defined(__AVR_ATmega1280__) || defined(__AVR_ATmega2560__) || defined(__AVR_ATmega328__)
 #define INTERNAL INTERNAL1V1
 #endif
 
 void setup() {
   /* initialize serial                                       */
   Serial.begin(115200);
-  TCCR0B = TCCR0B & B11111000 | B00000001; //change PWM frequency to 62 kHz. used in Pins D5 and D6.
+  //TCCR0B = TCCR0B & B11111000 | B00000001; //change PWM frequency to 62 kHz. used in Pins D5 and D6.
 }
 
 
