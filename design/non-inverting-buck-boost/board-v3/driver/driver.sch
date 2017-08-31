@@ -153,13 +153,13 @@
 <device name="" package="SO8">
 <connects>
 <connect gate="G$1" pin="GND1" pad="4"/>
-<connect gate="G$1" pin="GND2" pad="8"/>
+<connect gate="G$1" pin="GND2" pad="5"/>
 <connect gate="G$1" pin="VDD1" pad="1"/>
-<connect gate="G$1" pin="VDD2" pad="5"/>
+<connect gate="G$1" pin="VDD2" pad="8"/>
 <connect gate="G$1" pin="VIA" pad="2"/>
 <connect gate="G$1" pin="VIB" pad="3"/>
-<connect gate="G$1" pin="VOA" pad="6"/>
-<connect gate="G$1" pin="VOB" pad="7"/>
+<connect gate="G$1" pin="VOA" pad="7"/>
+<connect gate="G$1" pin="VOB" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4071,14 +4071,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <pinref part="U$1" gate="G$1" pin="0V"/>
 <wire x1="76.2" y1="68.58" x2="88.9" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="68.58" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="68.58" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="GND2"/>
-<wire x1="88.9" y1="40.64" x2="88.9" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="33.02" x2="88.9" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="27.94" x2="81.28" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="OUT" gate="-1" pin="S"/>
-<wire x1="93.98" y1="40.64" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
-<junction x="88.9" y="40.64"/>
-<label x="91.44" y="40.64" size="1.778" layer="95"/>
+<pinref part="OUT" gate="-2" pin="S"/>
+<wire x1="93.98" y1="33.02" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
+<junction x="88.9" y="33.02"/>
+<label x="91.44" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -4174,10 +4174,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="VG1" class="0">
 <segment>
-<pinref part="OUT" gate="-2" pin="S"/>
+<pinref part="OUT" gate="-1" pin="S"/>
+<wire x1="93.98" y1="40.64" x2="86.36" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="40.64" x2="86.36" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="VOA"/>
-<wire x1="93.98" y1="33.02" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
-<label x="91.44" y="33.02" size="1.778" layer="95"/>
+<wire x1="86.36" y1="33.02" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
+<label x="91.44" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
