@@ -1,6 +1,6 @@
 #include <PWM.h>
 
-int pin_out = 45;
+int pin_out = 9;
 int input = 0;
 int output = 0;
 
