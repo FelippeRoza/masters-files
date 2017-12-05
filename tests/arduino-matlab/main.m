@@ -4,7 +4,7 @@ clear all
 % Save the serial port name in comPort variable.
 
 delete(instrfindall);
-comPort = 'COM7';
+comPort = 'COM5';
 %% 
 % It creates a serial element calling the function "stupSerial"
 
@@ -53,8 +53,8 @@ end
 %%
 
 mode = 'R';
-data = readValue(arduino,mode);
 tic;
+data = readValue(arduino,mode);
 while (get(button,'Value') == 0 )
     for i = 1:5 %gather data
         tc = readValue(arduino,mode)
