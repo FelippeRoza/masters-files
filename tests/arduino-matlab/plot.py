@@ -18,22 +18,30 @@ def convert_current(series):
     output[output < 0.15] = 0
     return output
 
-def plot_multiple(files_list, output_name):
+def plot_multiple(files_list, output_name, title, mode = 'voltage'):
     f, axarr = plt.subplots(3, sharex=True)
 
     for filename in files_list:
         df = pd.read_csv(folder_name + filename)
-        axarr[1].plot(df['time'], df['rpm'])
-        axarr[2].plot(df['time'], df['v3'])
-    axarr[0].plot(df['time'], df['wind_km/h'])
+        pitch = 'Pitch = ' + re.search('pitch(.+?).csv', filename).group(1)
+        axarr[1].plot(df['time'], df['rpm'], label = pitch)
+        if mode == 'voltage':
+            axarr[2].plot(df['time'], df['v3'], label = pitch)
+            axarr[2].set_ylabel('Voltage (V)')
+        elif mode == 'power':
+            axarr[2].plot(df['time'], df['v3']*df['i3'], label = pitch)
+            axarr[2].set_ylabel('Power (W)')
+    axarr[0].plot(df['time'], df['wind_km/h'], label = 'Wind Vel')
 
-    axarr[0].set_title('Open Circuit')
+    axarr[0].set_title(title)
     axarr[0].set_ylabel('Wind Vel. (Km/h)')
     axarr[1].set_ylabel(r'$\omega$ (RPM)')
-    axarr[2].set_ylabel(r'Voltage (V)')
+
     axarr[2].set_xlabel('t(s)')
     for ax in axarr:
         ax.yaxis.set_label_position("right")
+        ax.legend(loc='upper left', prop={'size': 7})
+    # legend(loc='upper left')
     plt.savefig(folder_name + output_name)
     plt.show()
 
@@ -96,6 +104,5 @@ def plot_wind(files_list):
     show()
 
 # plot_wind(rawfile_name_list)
-plot_multiple(file_name_list, '24V.png')
-# frango = pd.read_csv(folder_name + 'flow_v2')['flow (m^3/h)']
-# print(frango)
+plot_multiple(file_name_list, '24V_power.png', '24V Lead-Acid Battery', mode = 'power')
+plot_multiple(file_name_list, 'opencircuit.png', 'Open Circuit')
