@@ -21,13 +21,13 @@ def plot_simple_turbine():
     plt.legend(loc="upper left")
     axes = plt.gca()
     axes.set_ylim([0,150])
-    plt.savefig(out_folder + 'simple-turbine-power-x-voltage.png')
+    plt.savefig(out_folder + 'simple-turbine-power-x-voltage.eps')
 
     x = np.arange(0.0, 40.0, 0.1)
     y = 0.0067 * (x**3) # equation fitted in matlab by least squares
     plt.plot(x, y, label = 'MPP')
     plt.legend(loc="upper left")
-    plt.savefig(out_folder + 'simple-turbine-cubic-fitted.png')
+    plt.savefig(out_folder + 'simple-turbine-cubic-fitted.eps')
 
 def cp(alfa, beta):
     #turbine power coeficient
@@ -49,13 +49,41 @@ def plot_complex_turbine():
     c_p = cp(tsr, beta)
     c_p[c_p < 0.0] = 0.0
     plt.figure()
-    plt.plot(tsr, c_p, linewidth = line_width, color = 'black')
+    plt.plot(tsr, c_p, linewidth = line_width, color = 'black', label = 'Pitch = '+str(beta)+'$^{\circ}$')
     plt.xlabel(r'$\lambda$', fontsize=20)
     plt.ylabel(r'$C_p$', fontsize=20)
-    # plt.legend(loc="upper left")
+    plt.legend(loc="upper left")
 
-    plt.savefig(out_folder + 'small-turbine-cp.png')
+    plt.savefig(out_folder + 'small-turbine-cp.eps')
 
 
+def plot_complex_cubic():
+    plt.figure()
+    beta = 10
+    r = 1.5 #blade radius
+    m = 0.5*1.25*3.14*r**2 #1/2 rho pi r^2
+    wind_speed_list = [6, 8, 10, 12]
+    w = np.arange(0.0, 110.0, 0.1)
+    temp = 1
+    for v in wind_speed_list:
+        tsr = (w * r)/v
+        c_p = cp(tsr, beta)
+        c_p[c_p < 0.0] = 0.0
+        p = m * c_p * v**3 # mechanical power
+        plt.plot(w, p, linewidth = line_width, label = 'V' + str(temp))
+        temp += 1
+    y = 0.0075 * (w**3) # equation fitted in matlab by least squares
+    plt.plot(w, y, label = 'MPP', linewidth = line_width)
+    plt.xlabel(r'$\omega (rad/s)$', fontsize=20)
+    plt.ylabel(r'$Power (W)$', fontsize=20)
+    plt.legend(loc="upper left")
+    axes = plt.gca()
+    axes.set_ylim([0,1700])
+    axes.set_xlim([0,110])
+    plt.savefig(out_folder + 'small-turbine-cubic.eps')
+
+
+#
 plot_simple_turbine()
 plot_complex_turbine()
+plot_complex_cubic()
