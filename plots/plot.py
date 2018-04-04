@@ -30,7 +30,7 @@ def plot_simple_turbine():
     plt.savefig(out_folder + 'simple-turbine-cubic-fitted.eps')
 
 def cp(alfa, beta):
-    #turbine power coeficient
+    #turbine standard power coeficient
     #alfa is the Tip Speed Ratio and beta is the pitch angle
     alfa_i = (1/(alfa + 0.08*beta)) - 0.035/(beta**3 + 1)
     c1 = 0.5
@@ -82,8 +82,31 @@ def plot_complex_cubic():
     axes.set_xlim([0,110])
     plt.savefig(out_folder + 'small-turbine-cubic.eps')
 
+def plot_fitted_turbine():
+    #it is the turbine model fitted by least squares
+    #cp = -0.0011(lambda + 0.0007 beta**2 - 5.37)e**( 1.36 lambda)
+    plt.figure()
+    beta = 15
+    r = 0.1 #blade radius
+    m = 0.5*1.25*3.14*r**2 #1/2 rho pi r^2
+    tsr = np.arange(0.0, 6.0, 0.1) #tip speed ratio
+    wind_speed_list = [16, 20, 24, 28]
+    for v in wind_speed_list:
+        # tsr = (w * r)/v
+        c_p = -0.0011*(tsr + 0.0007*(beta**2) - 5.37)*np.exp(1.36*tsr)
+        c_p[c_p < 0.0] = 0.0
+        p = m * c_p * v**3 # mechanical power
+        plt.plot(tsr, p, linewidth = line_width, label = 'V = ' + str(v) + 'm/s')
+    plt.xlabel(r'$\lambda$', fontsize=20)
+    plt.ylabel(r'$Power (W)$', fontsize=20)
+    plt.legend(loc="upper left")
+    plt.savefig(out_folder + 'fitted-turbine-power.png')
+    plt.savefig(out_folder + 'fitted-turbine-power.eps')
+
+
 
 #
 plot_simple_turbine()
 plot_complex_turbine()
 plot_complex_cubic()
+plot_fitted_turbine()
