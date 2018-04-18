@@ -129,7 +129,7 @@ def plot_fitted_cubic_rpm():
     plt.savefig(out_folder + 'small-turbine-cubic.eps')
 
 
-def plot_mppt(method, converter, ref):
+def plot_mppt(method, converter, ref, var, ylabel):
     plt.figure()
     folder = 'data/psim/'
     df = pd.read_csv(folder + 'mppt-'+method+'-'+converter+'.csv')
@@ -148,29 +148,29 @@ def plot_mppt(method, converter, ref):
         df['max_pm'][df['Vwind'] == v] = p.max() # theoretical maximum power for given wind velocity
 
     df['max_pe'] = df['max_pm'] * 0.85
-    ax1 = plt.subplot(411)
-    plt.plot(df['Time'], df['Pm'], label = r'$Pm$', linewidth = line_width, color = 'black')
-    plt.plot(df['Time'], df['max_pm'], label = r'$Pm_{max}$', linewidth = line_width, color = 'black', linestyle = '--')
-    plt.ylabel('Mechanical\nPower (W)')#, fontsize=16)
-    plt.legend(loc="best")
-    plt.setp(ax1.get_xticklabels(), visible=False)
+    # ax1 = plt.subplot(411)
+    # plt.plot(df['Time'], df['Pm'], label = r'$Pm$', linewidth = line_width, color = 'black')
+    # plt.plot(df['Time'], df['max_pm'], label = r'$Pm_{max}$', linewidth = line_width, color = 'black', linestyle = '--')
+    # plt.ylabel('Mechanical\nPower (W)')#, fontsize=16)
+    # plt.legend(loc="best")
+    # plt.setp(ax1.get_xticklabels(), visible=False)
 
-    ax2 = plt.subplot(412, sharex=ax1)
+    ax1 = plt.subplot(311)
     plt.plot(df['Time'], df['Pout'], label = r'$Pe$', linewidth = line_width, color = 'black')
     plt.plot(df['Time'], df['max_pe'], label = r'$Pe_{max}$', linewidth = line_width, color = 'black', linestyle = '--')
     plt.ylabel('Electrical\nPower (W)')#, fontsize=16)
     plt.legend(loc="best")
+    plt.setp(ax1.get_xticklabels(), visible=False)
+
+
+    ax2 = plt.subplot(312, sharex=ax1)
+    plt.plot(df['Time'], df[ref], label = r'$' + var + '$', linewidth = line_width, color = 'black')
+    plt.plot(df['Time'], df[ref+'_REF'], label = r'$' + var + r'_{ref}$', linewidth = line_width, color = 'black', linestyle = '--')
+    plt.ylabel(ylabel)#, fontsize=16)
+    plt.legend(loc="best")
     plt.setp(ax2.get_xticklabels(), visible=False)
 
-
-    ax3 = plt.subplot(413, sharex=ax1)
-    plt.plot(df['Time'], df[ref], label = r'$Ii$', linewidth = line_width, color = 'black')
-    plt.plot(df['Time'], df[ref+'_REF'], label = r'$I_{ref}$', linewidth = line_width, color = 'black', linestyle = '--')
-    plt.ylabel('Current\n(A)')#, fontsize=16)
-    plt.legend(loc="best")
-    plt.setp(ax3.get_xticklabels(), visible=False)
-
-    ax4 = plt.subplot(414, sharex=ax1)
+    ax3 = plt.subplot(313, sharex=ax1)
     plt.plot(df['Time'], df['Vwind'], label = 'Vwind', linewidth = line_width, color = 'black')
     plt.xlabel('Time (s)', fontsize=20)
     plt.ylabel('Wind speed\n(m/s)')#, fontsize=16)
@@ -178,7 +178,7 @@ def plot_mppt(method, converter, ref):
     axes = plt.gca()
     # axes.set_ylim([20,30])
     axes.set_xlim([0,15])
-    plt.savefig(out_folder + 'mppt-'+method+'-'+converter+'-sim.eps')
+    plt.savefig(out_folder + 'mppt-'+method+'-'+converter+'-sim.pdf')
 
 #
 # plot_simple_turbine()
@@ -186,6 +186,6 @@ def plot_mppt(method, converter, ref):
 # plot_complex_cubic()
 # plot_fitted_turbine()
 # plot_fitted_cubic_rpm()
-# plot_mppt('PSF', 'boost', 'IL')
-plot_mppt('OTSR', 'boost', 'lambda')
+# plot_mppt('PSF', 'boost', 'IL', 'I', 'Current\n(A)')
+plot_mppt('OTSR', 'boost', 'lambda', '\lambda', 'Tip-Speed\nRatio')
 plt.show()
